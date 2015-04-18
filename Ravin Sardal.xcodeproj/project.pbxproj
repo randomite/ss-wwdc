@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2B1ADF902800463FF4 /* AppDelegate.swift */; };
+		1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2D1ADF902800463FF4 /* ViewController.swift */; };
+		1228FF311ADF902800463FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF2F1ADF902800463FF4 /* Main.storyboard */; };
+		1228FF331ADF902800463FF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF321ADF902800463FF4 /* Images.xcassets */; };
+		1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF341ADF902800463FF4 /* LaunchScreen.xib */; };
+		1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1228FF3C1ADF902800463FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1228FF1E1ADF902800463FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1228FF251ADF902800463FF4;
+			remoteInfo = "Ravin Sardal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1228FF261ADF902800463FF4 /* Ravin Sardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravin Sardal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1228FF2A1ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1228FF2B1ADF902800463FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1228FF2D1ADF902800463FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1228FF301ADF902800463FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1228FF321ADF902800463FF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1228FF351ADF902800463FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1228FF3B1ADF902800463FF4 /* Ravin SardalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravin SardalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1228FF401ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravin_SardalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1228FF231ADF902800463FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1228FF381ADF902800463FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1228FF1D1ADF902800463FF4 = {
+			isa = PBXGroup;
+			children = (
+				1228FF281ADF902800463FF4 /* Ravin Sardal */,
+				1228FF3E1ADF902800463FF4 /* Ravin SardalTests */,
+				1228FF271ADF902800463FF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1228FF271ADF902800463FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1228FF261ADF902800463FF4 /* Ravin Sardal.app */,
+				1228FF3B1ADF902800463FF4 /* Ravin SardalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1228FF281ADF902800463FF4 /* Ravin Sardal */ = {
+			isa = PBXGroup;
+			children = (
+				1228FF2B1ADF902800463FF4 /* AppDelegate.swift */,
+				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
+				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
+				1228FF321ADF902800463FF4 /* Images.xcassets */,
+				1228FF341ADF902800463FF4 /* LaunchScreen.xib */,
+				1228FF291ADF902800463FF4 /* Supporting Files */,
+			);
+			path = "Ravin Sardal";
+			sourceTree = "<group>";
+		};
+		1228FF291ADF902800463FF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1228FF2A1ADF902800463FF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1228FF3E1ADF902800463FF4 /* Ravin SardalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */,
+				1228FF3F1ADF902800463FF4 /* Supporting Files */,
+			);
+			path = "Ravin SardalTests";
+			sourceTree = "<group>";
+		};
+		1228FF3F1ADF902800463FF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1228FF401ADF902800463FF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1228FF251ADF902800463FF4 /* Ravin Sardal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1228FF451ADF902800463FF4 /* Build configuration list for PBXNativeTarget "Ravin Sardal" */;
+			buildPhases = (
+				1228FF221ADF902800463FF4 /* Sources */,
+				1228FF231ADF902800463FF4 /* Frameworks */,
+				1228FF241ADF902800463FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ravin Sardal";
+			productName = "Ravin Sardal";
+			productReference = 1228FF261ADF902800463FF4 /* Ravin Sardal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1228FF3A1ADF902800463FF4 /* Ravin SardalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1228FF481ADF902800463FF4 /* Build configuration list for PBXNativeTarget "Ravin SardalTests" */;
+			buildPhases = (
+				1228FF371ADF902800463FF4 /* Sources */,
+				1228FF381ADF902800463FF4 /* Frameworks */,
+				1228FF391ADF902800463FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1228FF3D1ADF902800463FF4 /* PBXTargetDependency */,
+			);
+			name = "Ravin SardalTests";
+			productName = "Ravin SardalTests";
+			productReference = 1228FF3B1ADF902800463FF4 /* Ravin SardalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1228FF1E1ADF902800463FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ravin Sardal";
+				TargetAttributes = {
+					1228FF251ADF902800463FF4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1228FF3A1ADF902800463FF4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1228FF251ADF902800463FF4;
+					};
+				};
+			};
+			buildConfigurationList = 1228FF211ADF902800463FF4 /* Build configuration list for PBXProject "Ravin Sardal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1228FF1D1ADF902800463FF4;
+			productRefGroup = 1228FF271ADF902800463FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1228FF251ADF902800463FF4 /* Ravin Sardal */,
+				1228FF3A1ADF902800463FF4 /* Ravin SardalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1228FF241ADF902800463FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
+				1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */,
+				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1228FF391ADF902800463FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1228FF221ADF902800463FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */,
+				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1228FF371ADF902800463FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1228FF3D1ADF902800463FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1228FF251ADF902800463FF4 /* Ravin Sardal */;
+			targetProxy = 1228FF3C1ADF902800463FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1228FF2F1ADF902800463FF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1228FF301ADF902800463FF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1228FF341ADF902800463FF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1228FF351ADF902800463FF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1228FF431ADF902800463FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1228FF441ADF902800463FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1228FF461ADF902800463FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ravin Sardal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1228FF471ADF902800463FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ravin Sardal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1228FF491ADF902800463FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ravin SardalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravin Sardal.app/Ravin Sardal";
+			};
+			name = Debug;
+		};
+		1228FF4A1ADF902800463FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ravin SardalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravin Sardal.app/Ravin Sardal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1228FF211ADF902800463FF4 /* Build configuration list for PBXProject "Ravin Sardal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1228FF431ADF902800463FF4 /* Debug */,
+				1228FF441ADF902800463FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1228FF451ADF902800463FF4 /* Build configuration list for PBXNativeTarget "Ravin Sardal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1228FF461ADF902800463FF4 /* Debug */,
+				1228FF471ADF902800463FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1228FF481ADF902800463FF4 /* Build configuration list for PBXNativeTarget "Ravin SardalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1228FF491ADF902800463FF4 /* Debug */,
+				1228FF4A1ADF902800463FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1228FF1E1ADF902800463FF4 /* Project object */;
+}
