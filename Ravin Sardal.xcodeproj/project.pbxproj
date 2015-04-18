@@ -13,6 +13,7 @@
 		1228FF331ADF902800463FF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF321ADF902800463FF4 /* Images.xcassets */; };
 		1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF341ADF902800463FF4 /* LaunchScreen.xib */; };
 		1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */; };
+		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1228FF3B1ADF902800463FF4 /* Ravin SardalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravin SardalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1228FF401ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravin_SardalTests.swift; sourceTree = "<group>"; };
+		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				1228FF2B1ADF902800463FF4 /* AppDelegate.swift */,
 				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
 				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
+				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
 				1228FF321ADF902800463FF4 /* Images.xcassets */,
 				1228FF341ADF902800463FF4 /* LaunchScreen.xib */,
 				1228FF291ADF902800463FF4 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */,
 				1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */,
 				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				1228FF471ADF902800463FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1228FF481ADF902800463FF4 /* Build configuration list for PBXNativeTarget "Ravin SardalTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				1228FF4A1ADF902800463FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

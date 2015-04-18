@@ -10,18 +10,22 @@
 	<dict>
 		<key>1B787256E44239067FB0F47257369DD66DCC6646</key>
 		<string>https://github.com/randomite/IOS-Development.git</string>
+		<key>700DBDD2E288A85798D408755268B9B2890CA490</key>
+		<string>https://github.com/randomite/ss-wwdc.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1B787256E44239067FB0F47257369DD66DCC6646</key>
-		<string>xcode/</string>
+		<string>..</string>
+		<key>700DBDD2E288A85798D408755268B9B2890CA490</key>
+		<string>Ravin%20Sardal/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/randomite/IOS-Development.git</string>
+	<string>https://github.com/randomite/ss-wwdc.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1B787256E44239067FB0F47257369DD66DCC6646</string>
+	<string>700DBDD2E288A85798D408755268B9B2890CA490</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -30,7 +34,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>1B787256E44239067FB0F47257369DD66DCC6646</string>
 			<key>IDESourceControlWCCName</key>
-			<string>xcode</string>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>700DBDD2E288A85798D408755268B9B2890CA490</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ravin%20Sardal</string>
 		</dict>
 	</array>
 </dict>
