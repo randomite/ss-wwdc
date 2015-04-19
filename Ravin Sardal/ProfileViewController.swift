@@ -24,5 +24,4 @@ class ProfileViewController: UIViewController {
     @IBAction func sayHello(sender: AnyObject) {
         println("Hello")
     }
-    
 }
