@@ -24,4 +24,26 @@ class ProfileViewController: UIViewController {
     @IBAction func sayHello(sender: AnyObject) {
         println("Hello!!")
     }
+    
+    @IBAction func aboutMe(sender: AnyObject) {
+        println("About Me")
+    }
+    
+    @IBAction func apple(sender: AnyObject) {
+        println("Apple")
+        // We can either put an Apple logo here or put
+        // your name and profile picture inside an Apple
+        // logo.
+    }
+    @IBAction func wwdc(sender: AnyObject) {
+        println("WWDC 2015")
+        // Say why you want to go to WWDC, what you 
+        // hope to learn, and what you will do after
+        // gaining your new knowledge.
+    }
+    
+    @IBAction func accomplishments(sender: AnyObject) {
+        println("Accomplishments")
+        // Here you will place your coding experience.
+    }
 }
