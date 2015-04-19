@@ -26,5 +26,8 @@ class AppleInfoViewContoller: UIViewController {
     @IBAction func applePrintln(sender: AnyObject) {
         println("works")
     }
+    @IBAction func backToHome(sender: AnyObject) {
+        println("works")
+    }
     
 }

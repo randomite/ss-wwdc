@@ -25,4 +25,7 @@ class AboutMeViewContoller: UIViewController {
         println("works")
     }
     
+    @IBAction func backToHome(sender: AnyObject) {
+        println("works")
+    }
 }
