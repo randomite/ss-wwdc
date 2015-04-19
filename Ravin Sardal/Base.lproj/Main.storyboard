@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -207,16 +207,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ravin Sardal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYf-hs-Xil">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ravin Sardal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYf-hs-Xil">
                                 <rect key="frame" x="99" y="240" width="123" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile Picture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-lJ-qwF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Profile Picture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-lJ-qwF">
                                 <rect key="frame" x="107" y="273" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXZ-3h-yhY">
@@ -225,48 +225,70 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm6-ye-9io">
-                                <rect key="frame" x="33" y="342" width="85" height="30"/>
-                                <state key="normal" title="Why WWDC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="wwdc:" destination="dks-Hw-yyB" eventType="touchUpInside" id="Zj9-ct-jWY"/>
-                                    <segue destination="mE0-Jh-yzF" kind="push" id="XYG-2z-0dB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtN-8A-P60">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtN-8A-P60">
                                 <rect key="frame" x="33" y="156" width="67" height="30"/>
                                 <state key="normal" title="About Me">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="aboutMe:" destination="dks-Hw-yyB" eventType="touchUpInside" id="5t2-PG-2y7"/>
-                                    <segue destination="fnA-Ym-XLH" kind="push" id="JtO-zh-5B5"/>
+                                    <segue destination="fnA-Ym-XLH" kind="modal" id="BJ8-fe-KpT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxk-LS-bCH">
-                                <rect key="frame" x="228" y="342" width="40" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxk-LS-bCH">
+                                <rect key="frame" x="222" y="342" width="40" height="30"/>
                                 <state key="normal" title="Apple">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="apple:" destination="dks-Hw-yyB" eventType="touchUpInside" id="4uq-R3-GIh"/>
-                                    <segue destination="67a-CK-Kzt" kind="push" id="8Bz-Up-DHB"/>
+                                    <segue destination="67a-CK-Kzt" kind="modal" id="T4f-ro-hRe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-8E-P2s">
-                                <rect key="frame" x="156" y="156" width="123" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-8E-P2s">
+                                <rect key="frame" x="181" y="156" width="123" height="30"/>
                                 <state key="normal" title="Accomplishments">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="coding:" destination="dks-Hw-yyB" eventType="touchUpInside" id="1jA-Ci-ifc"/>
-                                    <segue destination="Rly-F2-oZO" kind="push" id="av6-ox-q3t"/>
+                                    <segue destination="Rly-F2-oZO" kind="modal" id="Vt7-LZ-D1T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm6-ye-9io">
+                                <rect key="frame" x="33" y="342" width="85" height="30"/>
+                                <state key="normal" title="Why WWDC">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mE0-Jh-yzF" kind="modal" id="Qqz-OL-4Fs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y0c-8E-P2s" firstAttribute="leading" secondItem="jtN-8A-P60" secondAttribute="trailing" constant="81" id="1zi-zA-7en"/>
+                            <constraint firstItem="yYf-hs-Xil" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="54" id="5bM-qZ-DMT"/>
+                            <constraint firstItem="iQl-Ps-bZe" firstAttribute="top" secondItem="Mxk-LS-bCH" secondAttribute="bottom" constant="196" id="7wu-MR-g4F"/>
+                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="Tgs-lJ-qwF" secondAttribute="bottom" constant="48" id="C4r-i9-ZV3"/>
+                            <constraint firstItem="yYf-hs-Xil" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="54" id="D6s-HT-XBp"/>
+                            <constraint firstItem="Y0c-8E-P2s" firstAttribute="leading" secondItem="jtN-8A-P60" secondAttribute="trailing" constant="81" id="DHU-j8-yyf"/>
+                            <constraint firstItem="Tgs-lJ-qwF" firstAttribute="top" secondItem="yYf-hs-Xil" secondAttribute="bottom" constant="8" id="E9x-u1-rQt"/>
+                            <constraint firstItem="jtN-8A-P60" firstAttribute="top" secondItem="jDQ-SS-BQL" secondAttribute="bottom" constant="136" id="GIj-v8-jxj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yYf-hs-Xil" secondAttribute="trailing" constant="82" id="HTz-Gj-jX5"/>
+                            <constraint firstItem="Mxk-LS-bCH" firstAttribute="leading" secondItem="bm6-ye-9io" secondAttribute="trailing" constant="104" id="Hab-k7-m8l"/>
+                            <constraint firstItem="Y0c-8E-P2s" firstAttribute="trailing" secondItem="pYX-ks-zud" secondAttribute="trailingMargin" id="Ht5-EW-frj"/>
+                            <constraint firstItem="Y0c-8E-P2s" firstAttribute="top" secondItem="jDQ-SS-BQL" secondAttribute="bottom" constant="136" id="IFq-hP-RQf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tgs-lJ-qwF" secondAttribute="trailing" constant="90" id="KYh-n2-iW1"/>
+                            <constraint firstItem="iQl-Ps-bZe" firstAttribute="top" secondItem="bm6-ye-9io" secondAttribute="bottom" constant="196" id="KzE-Ny-kvD"/>
+                            <constraint firstItem="Mxk-LS-bCH" firstAttribute="leading" secondItem="bm6-ye-9io" secondAttribute="trailing" constant="104" id="TS3-hP-LM3"/>
+                            <constraint firstItem="Tgs-lJ-qwF" firstAttribute="top" secondItem="yYf-hs-Xil" secondAttribute="bottom" constant="8" id="VPJ-JO-hUY"/>
+                            <constraint firstItem="bm6-ye-9io" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="17" id="Wft-Ge-lje"/>
+                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="jtN-8A-P60" secondAttribute="bottom" constant="156" id="b2z-Bk-jpR"/>
+                            <constraint firstItem="Tgs-lJ-qwF" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="91" id="gBx-n2-7sw"/>
+                            <constraint firstItem="yYf-hs-Xil" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="83" id="ocf-tB-U7d"/>
+                            <constraint firstItem="Mxk-LS-bCH" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="156" id="ouG-J6-cJA"/>
+                            <constraint firstItem="jtN-8A-P60" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="17" id="r6g-M2-qx6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mxk-LS-bCH" secondAttribute="trailing" constant="42" id="w3A-E3-BeE"/>
+                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="Tgs-lJ-qwF" secondAttribute="bottom" constant="48" id="xcS-O8-uo1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="H6J-5H-cPF"/>
                 </viewController>
@@ -277,7 +299,7 @@
         <!--View Controller-->
         <scene sceneID="lEK-sK-lnh">
             <objects>
-                <viewController id="mE0-Jh-yzF" sceneMemberID="viewController">
+                <viewController id="mE0-Jh-yzF" customClass="WWDCViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UsW-rL-bx1"/>
                         <viewControllerLayoutGuide type="bottom" id="nil-V8-nGc"/>
@@ -289,7 +311,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why WWDC?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sH-Pc-T2b">
                                 <rect key="frame" x="92" y="28" width="136" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -301,10 +323,10 @@
             </objects>
             <point key="canvasLocation" x="1107" y="669"/>
         </scene>
-        <!--View Controller-->
+        <!--Accomplishments View Contoller-->
         <scene sceneID="n8w-PA-r0R">
             <objects>
-                <viewController id="Rly-F2-oZO" sceneMemberID="viewController">
+                <viewController id="Rly-F2-oZO" customClass="AccomplishmentsViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gNn-lk-8Lq"/>
                         <viewControllerLayoutGuide type="bottom" id="my8-rY-EVX"/>
@@ -316,7 +338,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accomplishments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6x-CS-yXo">
                                 <rect key="frame" x="74" y="28" width="173" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -328,10 +350,10 @@
             </objects>
             <point key="canvasLocation" x="1465" y="-22"/>
         </scene>
-        <!--View Controller-->
+        <!--About Me View Contoller-->
         <scene sceneID="dzO-bD-KJf">
             <objects>
-                <viewController id="fnA-Ym-XLH" sceneMemberID="viewController">
+                <viewController id="fnA-Ym-XLH" customClass="AboutMeViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D5b-GQ-M4o"/>
                         <viewControllerLayoutGuide type="bottom" id="rbl-nP-dFY"/>
@@ -343,7 +365,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSx-bF-kn5">
                                 <rect key="frame" x="111" y="28" width="98" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -355,10 +377,10 @@
             </objects>
             <point key="canvasLocation" x="1107" y="-22"/>
         </scene>
-        <!--View Controller-->
+        <!--Apple Info View Contoller-->
         <scene sceneID="stg-hN-hGp">
             <objects>
-                <viewController id="67a-CK-Kzt" sceneMemberID="viewController">
+                <viewController id="67a-CK-Kzt" customClass="AppleInfoViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gXN-En-uJ7"/>
                         <viewControllerLayoutGuide type="bottom" id="wVv-Zm-OIB"/>
@@ -370,7 +392,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apple" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyD-DB-2ZW">
                                 <rect key="frame" x="131" y="28" width="58" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
