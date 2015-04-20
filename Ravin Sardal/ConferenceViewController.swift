@@ -1,5 +1,5 @@
 //
-//  WWDCViewController.swift
+//  ConferenceViewController.swift
 //  Ravin Sardal
 //
 //  Created by Ravin Sardal on 4/19/15.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class WWDCViewController: UIViewController {
+class ConferenceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +20,5 @@ class WWDCViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func backToHome(sender: AnyObject) {
-        println("works")
-    }
-
     
 }

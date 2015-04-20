@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */; };
 		121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */; };
-		121DC0231AE4531B009668CE /* WWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0221AE4531B009668CE /* WWDCViewController.swift */; };
 		121DC0251AE4532C009668CE /* AppleInfoViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */; };
 		1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2B1ADF902800463FF4 /* AppDelegate.swift */; };
 		1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2D1ADF902800463FF4 /* ViewController.swift */; };
@@ -17,6 +16,7 @@
 		1228FF331ADF902800463FF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF321ADF902800463FF4 /* Images.xcassets */; };
 		1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF341ADF902800463FF4 /* LaunchScreen.xib */; };
 		1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */; };
+		1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234C5691AE493D5006D2898 /* ConferenceViewController.swift */; };
 		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,6 @@
 /* Begin PBXFileReference section */
 		121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewContoller.swift; sourceTree = "<group>"; };
 		121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccomplishmentsViewContoller.swift; sourceTree = "<group>"; };
-		121DC0221AE4531B009668CE /* WWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCViewController.swift; sourceTree = "<group>"; };
 		121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleInfoViewContoller.swift; sourceTree = "<group>"; };
 		1228FF261ADF902800463FF4 /* Ravin Sardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravin Sardal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1228FF2A1ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		1228FF3B1ADF902800463FF4 /* Ravin SardalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravin SardalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1228FF401ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravin_SardalTests.swift; sourceTree = "<group>"; };
+		1234C5691AE493D5006D2898 /* ConferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
 		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,8 +90,8 @@
 				1228FF2B1ADF902800463FF4 /* AppDelegate.swift */,
 				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
 				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
+				1234C5691AE493D5006D2898 /* ConferenceViewController.swift */,
 				121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */,
-				121DC0221AE4531B009668CE /* WWDCViewController.swift */,
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
@@ -227,8 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */,
 				12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */,
-				121DC0231AE4531B009668CE /* WWDCViewController.swift in Sources */,
 				1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */,
 				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
 				121DC0251AE4532C009668CE /* AppleInfoViewContoller.swift in Sources */,

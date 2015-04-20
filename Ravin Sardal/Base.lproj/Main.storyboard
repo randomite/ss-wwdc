@@ -226,13 +226,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ravin Sardal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYf-hs-Xil">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ravin Sardal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYf-hs-Xil">
                                 <rect key="frame" x="99" y="240" width="123" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Profile Picture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-lJ-qwF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Profile Picture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-lJ-qwF">
                                 <rect key="frame" x="107" y="273" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -256,15 +256,6 @@
                                     <segue destination="Rly-F2-oZO" kind="modal" id="Vt7-LZ-D1T"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm6-ye-9io">
-                                <rect key="frame" x="33" y="342" width="85" height="30"/>
-                                <state key="normal" title="Why WWDC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mE0-Jh-yzF" kind="modal" id="Qqz-OL-4Fs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtN-8A-P60">
                                 <rect key="frame" x="33" y="156" width="67" height="30"/>
                                 <state key="normal" title="About Me">
@@ -274,33 +265,35 @@
                                     <segue destination="fnA-Ym-XLH" kind="modal" id="BJ8-fe-KpT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSq-ga-EdC">
+                                <rect key="frame" x="26" y="342" width="93" height="30"/>
+                                <state key="normal" title="Why WWDC?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gw7-hd-CyY" kind="modal" id="y4g-IE-8JO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Y0c-8E-P2s" firstAttribute="leading" secondItem="jtN-8A-P60" secondAttribute="trailing" constant="81" id="1zi-zA-7en"/>
                             <constraint firstItem="yYf-hs-Xil" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="54" id="5bM-qZ-DMT"/>
                             <constraint firstItem="iQl-Ps-bZe" firstAttribute="top" secondItem="Mxk-LS-bCH" secondAttribute="bottom" constant="196" id="7wu-MR-g4F"/>
-                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="Tgs-lJ-qwF" secondAttribute="bottom" constant="48" id="C4r-i9-ZV3"/>
                             <constraint firstItem="yYf-hs-Xil" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="54" id="D6s-HT-XBp"/>
                             <constraint firstItem="Y0c-8E-P2s" firstAttribute="leading" secondItem="jtN-8A-P60" secondAttribute="trailing" constant="81" id="DHU-j8-yyf"/>
                             <constraint firstItem="Tgs-lJ-qwF" firstAttribute="top" secondItem="yYf-hs-Xil" secondAttribute="bottom" constant="8" id="E9x-u1-rQt"/>
                             <constraint firstItem="jtN-8A-P60" firstAttribute="top" secondItem="jDQ-SS-BQL" secondAttribute="bottom" constant="136" id="GIj-v8-jxj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yYf-hs-Xil" secondAttribute="trailing" constant="82" id="HTz-Gj-jX5"/>
-                            <constraint firstItem="Mxk-LS-bCH" firstAttribute="leading" secondItem="bm6-ye-9io" secondAttribute="trailing" constant="104" id="Hab-k7-m8l"/>
                             <constraint firstItem="Y0c-8E-P2s" firstAttribute="trailing" secondItem="pYX-ks-zud" secondAttribute="trailingMargin" id="Ht5-EW-frj"/>
                             <constraint firstItem="Y0c-8E-P2s" firstAttribute="top" secondItem="jDQ-SS-BQL" secondAttribute="bottom" constant="136" id="IFq-hP-RQf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tgs-lJ-qwF" secondAttribute="trailing" constant="90" id="KYh-n2-iW1"/>
-                            <constraint firstItem="iQl-Ps-bZe" firstAttribute="top" secondItem="bm6-ye-9io" secondAttribute="bottom" constant="196" id="KzE-Ny-kvD"/>
-                            <constraint firstItem="Mxk-LS-bCH" firstAttribute="leading" secondItem="bm6-ye-9io" secondAttribute="trailing" constant="104" id="TS3-hP-LM3"/>
                             <constraint firstItem="Tgs-lJ-qwF" firstAttribute="top" secondItem="yYf-hs-Xil" secondAttribute="bottom" constant="8" id="VPJ-JO-hUY"/>
-                            <constraint firstItem="bm6-ye-9io" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="17" id="Wft-Ge-lje"/>
-                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="jtN-8A-P60" secondAttribute="bottom" constant="156" id="b2z-Bk-jpR"/>
                             <constraint firstItem="Tgs-lJ-qwF" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="91" id="gBx-n2-7sw"/>
                             <constraint firstItem="yYf-hs-Xil" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="83" id="ocf-tB-U7d"/>
                             <constraint firstItem="Mxk-LS-bCH" firstAttribute="top" secondItem="Y0c-8E-P2s" secondAttribute="bottom" constant="156" id="ouG-J6-cJA"/>
                             <constraint firstItem="jtN-8A-P60" firstAttribute="leading" secondItem="pYX-ks-zud" secondAttribute="leadingMargin" constant="17" id="r6g-M2-qx6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mxk-LS-bCH" secondAttribute="trailing" constant="42" id="w3A-E3-BeE"/>
-                            <constraint firstItem="bm6-ye-9io" firstAttribute="top" secondItem="Tgs-lJ-qwF" secondAttribute="bottom" constant="48" id="xcS-O8-uo1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="H6J-5H-cPF"/>
@@ -308,46 +301,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swx-pH-qWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="676" y="343"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lEK-sK-lnh">
-            <objects>
-                <viewController id="mE0-Jh-yzF" customClass="WWDCViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UsW-rL-bx1"/>
-                        <viewControllerLayoutGuide type="bottom" id="nil-V8-nGc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ETF-8a-4aq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why WWDC?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sH-Pc-T2b">
-                                <rect key="frame" x="92" y="28" width="136" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRO-0C-Cnm">
-                                <rect key="frame" x="16" y="25" width="35" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backToHome:" destination="mE0-Jh-yzF" eventType="touchUpInside" id="Rbd-47-5bd"/>
-                                    <segue destination="dks-Hw-yyB" kind="modal" id="ew1-xd-euL"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8vh-eH-XUB"/>
-                    <connections>
-                        <outlet property="backToHome" destination="SRO-0C-Cnm" id="kg0-hk-poW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="48x-Zg-w5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1107" y="669"/>
         </scene>
         <!--Accomplishments View Contoller-->
         <scene sceneID="n8w-PA-r0R">
@@ -459,6 +412,41 @@
             </objects>
             <point key="canvasLocation" x="1107" y="-22"/>
         </scene>
+        <!--Conference View Controller-->
+        <scene sceneID="nqJ-zL-rdY">
+            <objects>
+                <viewController id="Gw7-hd-CyY" customClass="ConferenceViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bF3-Y4-QLw"/>
+                        <viewControllerLayoutGuide type="bottom" id="PCU-rU-fic"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PvN-Yg-JQg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why WWDC?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcW-xv-azW">
+                                <rect key="frame" x="108" y="34" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPm-2G-ieG">
+                                <rect key="frame" x="22" y="34" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dks-Hw-yyB" kind="modal" id="9Gy-vm-dcr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zs5-rA-0A6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="708"/>
+        </scene>
         <!--Apple Info View Contoller-->
         <scene sceneID="stg-hN-hGp">
             <objects>
@@ -494,7 +482,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYq-Zz-FGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1465" y="669"/>
+            <point key="canvasLocation" x="1612" y="703"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -503,6 +491,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="2Te-Wl-Kt7"/>
+        <segue reference="GVs-Em-JD0"/>
     </inferredMetricsTieBreakers>
 </document>
