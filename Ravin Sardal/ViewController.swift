@@ -78,6 +78,8 @@ class ViewController: UIViewController {
         self.sixteenLabel.alpha = 0.0
         self.HelloLabel.alpha = 0.0
         self.HelloLabel.enabled = false
+        self.HelloLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        self.HelloWWDCLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
         
 
     }
