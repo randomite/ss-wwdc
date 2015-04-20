@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     
     
     
+    @IBOutlet var wwdcLogo: UIImageView!
+    
     @IBOutlet var oneLabel: UILabel! //1
     
     @IBOutlet var twoLabel: UILabel! //12
@@ -50,12 +52,14 @@ class ViewController: UIViewController {
     @IBOutlet var sixteenLabel: UILabel! //4
     
     @IBOutlet var HelloLabel: UIButton! //last
+    @IBOutlet var HelloWWDCLabel: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.wwdcLogo.alpha = 0.0
+        self.HelloWWDCLabel.alpha = 0.0
         self.oneLabel.alpha = 0.0
         self.twoLabel.alpha = 0.0
         self.threeLabel.alpha = 0.0
@@ -73,6 +77,7 @@ class ViewController: UIViewController {
         self.fifteenLabel.alpha = 0.0
         self.sixteenLabel.alpha = 0.0
         self.HelloLabel.alpha = 0.0
+        
         
 
     }
@@ -155,7 +160,8 @@ class ViewController: UIViewController {
                                                                                                                                                                                                             self.HelloLabel.alpha = 1.0
                                                                                                                                                                                                             }, completion: {finished in
                                                                                                                                                                                                                 if finished{
-                                                                                                                                                                                                                    
+                                                                                                                                                                                
+                                                                                                                                                                                                                    self.hideLabels()
                                                                                                                                                                                                                 }
                                                                                                                                                                                                         })
                                                                                                                                                                                                     }
@@ -190,6 +196,130 @@ class ViewController: UIViewController {
                     })
                 }
         })
+        
+    }
+    
+    func hideLabels(){
+        let animationDelayTime = 0.10
+        
+        UIView.animateWithDuration(animationDelayTime, animations:{
+            self.oneLabel.alpha = 0.0
+            }, completion: {finished in
+                if finished{
+                    UIView.animateWithDuration(animationDelayTime, animations:{
+                        self.sevenLabel.alpha = 0.0
+                        }, completion: {finished in
+                            if finished{
+                                UIView.animateWithDuration(animationDelayTime, animations:{
+                                    self.elevenLabel.alpha = 0.0
+                                    }, completion: {finished in
+                                        if finished{
+                                            UIView.animateWithDuration(animationDelayTime, animations:{
+                                                self.sixteenLabel.alpha = 0.0
+                                                }, completion: {finished in
+                                                    if finished{
+                                                        UIView.animateWithDuration(animationDelayTime, animations:{
+                                                            self.twelveLabel.alpha = 0.0
+                                                            }, completion: {finished in
+                                                                if finished{
+                                                                    UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                        self.eightLabel.alpha = 0.0
+                                                                        }, completion: {finished in
+                                                                            if finished{
+                                                                                UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                    self.thirteenLabel.alpha = 0.0
+                                                                                    }, completion: {finished in
+                                                                                        if finished{
+                                                                                            UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                self.threeLabel.alpha = 0.0
+                                                                                                }, completion: {finished in
+                                                                                                    if finished{
+                                                                                                        UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                            self.sixLabel.alpha = 0.0
+                                                                                                            }, completion: {finished in
+                                                                                                                if finished{
+                                                                                                                    UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                        self.tenLabel.alpha = 0.0
+                                                                                                                        }, completion: {finished in
+                                                                                                                            if finished{
+                                                                                                                                UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                    self.fourLabel.alpha = 0.0
+                                                                                                                                    }, completion: {finished in
+                                                                                                                                        if finished{
+                                                                                                                                            UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                self.twoLabel.alpha = 0.0
+                                                                                                                                                }, completion: {finished in
+                                                                                                                                                    if finished{
+                                                                                                                                                        UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                            self.nineLabel.alpha = 0.0
+                                                                                                                                                            }, completion: {finished in
+                                                                                                                                                                if finished{
+                                                                                                                                                                    UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                                        self.fourteenLabel.alpha = 0.0
+                                                                                                                                                                        }, completion: {finished in
+                                                                                                                                                                            if finished{
+                                                                                                                                                                                UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                                                    self.fiveLabel.alpha = 0.0
+                                                                                                                                                                                    }, completion: {finished in
+                                                                                                                                                                                        if finished{
+                                                                                                                                                                                            UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                                                                self.fifteenLabel.alpha = 0.0
+                                                                                                                                                                                                }, completion: {finished in
+                                                                                                                                                                                                    if finished{
+                                                                                                                                                                                                        self.moveLogo()
+                                                                                                                                                                                                    }
+                                                                                                                                                                                            })
+                                                                                                                                                                                        }
+                                                                                                                                                                                })
+                                                                                                                                                                            }
+                                                                                                                                                                    })
+                                                                                                                                                                }
+                                                                                                                                                        })
+                                                                                                                                                    }
+                                                                                                                                            })
+                                                                                                                                        }
+                                                                                                                                })
+                                                                                                                            }
+                                                                                                                    })
+                                                                                                                }
+                                                                                                        })
+                                                                                                    }
+                                                                                            })
+                                                                                        }
+                                                                                })
+                                                                            }
+                                                                    })
+                                                                }
+                                                        })
+                                                    }
+                                            })
+                                        }
+                                })
+                            }
+                    })
+                }
+        })
+
+    }
+    
+    func moveLogo(){
+        UIView.animateWithDuration(0.25, animations: {
+            self.HelloLabel.alpha = 0.0
+            self.HelloWWDCLabel.alpha = 1.0
+            }, completion: {finished in
+                if finished{
+                    UIView.animateWithDuration(1.0, animations: {
+                        self.HelloWWDCLabel.frame = CGRectMake(self.HelloWWDCLabel.frame.origin.x, self.HelloWWDCLabel.frame.origin.y + 150, self.HelloWWDCLabel.frame.size.width, self.HelloWWDCLabel.frame.size.height)
+                        }, completion: {finished in
+                            if finished{
+                                UIView.animateWithDuration(1.5, animations:{
+                                    self.wwdcLogo.alpha = 1.0
+                                })
+                            }
+                    })
+                }
+        })
+        
         
     }
 

@@ -17,6 +17,7 @@
 		1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF341ADF902800463FF4 /* LaunchScreen.xib */; };
 		1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */; };
 		1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234C5691AE493D5006D2898 /* ConferenceViewController.swift */; };
+		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
 		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		1228FF401ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravin_SardalTests.swift; sourceTree = "<group>"; };
 		1234C5691AE493D5006D2898 /* ConferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
+		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
 		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				127FEF001AE4A0C400D03FEF /* logoWWDC.png */,
 				1228FF321ADF902800463FF4 /* Images.xcassets */,
 				1228FF341ADF902800463FF4 /* LaunchScreen.xib */,
 				1228FF291ADF902800463FF4 /* Supporting Files */,
@@ -207,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
 				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
 				1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */,
 				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
