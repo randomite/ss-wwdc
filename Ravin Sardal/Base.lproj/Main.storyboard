@@ -238,15 +238,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxk-LS-bCH">
-                                <rect key="frame" x="222" y="342" width="40" height="30"/>
-                                <state key="normal" title="Apple">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="67a-CK-Kzt" kind="modal" id="T4f-ro-hRe"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-8E-P2s">
                                 <rect key="frame" x="181" y="156" width="123" height="30"/>
                                 <state key="normal" title="Accomplishments">
@@ -272,6 +263,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="Gw7-hd-CyY" kind="modal" id="y4g-IE-8JO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxk-LS-bCH">
+                                <rect key="frame" x="213" y="342" width="59" height="30"/>
+                                <state key="normal" title="Interests">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="67a-CK-Kzt" kind="modal" id="T4f-ro-hRe"/>
                                 </connections>
                             </button>
                         </subviews>
