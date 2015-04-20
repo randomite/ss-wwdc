@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */; };
 		121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */; };
-		121DC0251AE4532C009668CE /* AppleInfoViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */; };
 		1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2B1ADF902800463FF4 /* AppDelegate.swift */; };
 		1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2D1ADF902800463FF4 /* ViewController.swift */; };
 		1228FF311ADF902800463FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1228FF2F1ADF902800463FF4 /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		1228FF421ADF902800463FF4 /* Ravin_SardalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */; };
 		1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234C5691AE493D5006D2898 /* ConferenceViewController.swift */; };
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
+		12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */; };
 		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,6 @@
 /* Begin PBXFileReference section */
 		121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewContoller.swift; sourceTree = "<group>"; };
 		121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccomplishmentsViewContoller.swift; sourceTree = "<group>"; };
-		121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleInfoViewContoller.swift; sourceTree = "<group>"; };
 		1228FF261ADF902800463FF4 /* Ravin Sardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravin Sardal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1228FF2A1ADF902800463FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1228FF2B1ADF902800463FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		1228FF411ADF902800463FF4 /* Ravin_SardalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravin_SardalTests.swift; sourceTree = "<group>"; };
 		1234C5691AE493D5006D2898 /* ConferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
 		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
+		12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
 		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
 				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
 				1234C5691AE493D5006D2898 /* ConferenceViewController.swift */,
-				121DC0241AE4532C009668CE /* AppleInfoViewContoller.swift */,
+				12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */,
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
@@ -231,11 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */,
 				1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */,
 				12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */,
 				1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */,
 				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
-				121DC0251AE4532C009668CE /* AppleInfoViewContoller.swift in Sources */,
 				121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */,
 				121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */,
 			);

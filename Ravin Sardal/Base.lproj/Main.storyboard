@@ -290,7 +290,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="67a-CK-Kzt" kind="modal" id="T4f-ro-hRe"/>
+                                    <segue destination="6k8-ep-TDI" kind="modal" id="4if-a0-ONS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -466,42 +466,40 @@
             </objects>
             <point key="canvasLocation" x="1158" y="708"/>
         </scene>
-        <!--Apple Info View Contoller-->
-        <scene sceneID="stg-hN-hGp">
+        <!--Interests View Controller-->
+        <scene sceneID="AIm-9B-TXt">
             <objects>
-                <viewController id="67a-CK-Kzt" customClass="AppleInfoViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6k8-ep-TDI" customClass="InterestsViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gXN-En-uJ7"/>
-                        <viewControllerLayoutGuide type="bottom" id="wVv-Zm-OIB"/>
+                        <viewControllerLayoutGuide type="top" id="UnV-Cu-ODg"/>
+                        <viewControllerLayoutGuide type="bottom" id="kFS-yF-IWE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bG6-98-xTv">
+                    <view key="view" contentMode="scaleToFill" id="03l-Ne-2x2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apple" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyD-DB-2ZW">
-                                <rect key="frame" x="131" y="28" width="58" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8v-4e-1dh">
-                                <rect key="frame" x="16" y="25" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRp-GP-3WV">
+                                <rect key="frame" x="31" y="51" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backToHome:" destination="67a-CK-Kzt" eventType="touchUpInside" id="RXt-qK-dEM"/>
-                                    <segue destination="dks-Hw-yyB" kind="modal" id="GVs-Em-JD0"/>
+                                    <segue destination="dks-Hw-yyB" kind="modal" id="9nB-4D-DTH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interests" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uH8-JR-JKv">
+                                <rect key="frame" x="127" y="42" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="SwR-Gb-rJv"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hYq-Zz-FGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nWz-px-2yE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1612" y="703"/>
+            <point key="canvasLocation" x="1579" y="650"/>
         </scene>
     </scenes>
     <resources>
@@ -513,6 +511,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9Gy-vm-dcr"/>
+        <segue reference="9nB-4D-DTH"/>
     </inferredMetricsTieBreakers>
 </document>
