@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         self.fifteenLabel.alpha = 0.0
         self.sixteenLabel.alpha = 0.0
         self.HelloLabel.alpha = 0.0
-        
+        self.HelloLabel.enabled = false
         
 
     }
