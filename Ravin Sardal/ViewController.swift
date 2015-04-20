@@ -90,10 +90,10 @@ class ViewController: UIViewController {
             self.oneLabel.alpha = 1.0
         })
 */
-        let animationDelayTime = 0.25
+        let animationDelayTime = 0.5
         
-        UIView.animateWithDuration(animationDelayTime, animations:{
-            self.oneLabel.alpha = 1.0
+        UIView.animateWithDuration(1.5, animations:{
+            self.HelloLabel.alpha = 1.0
             }, completion: {finished in
                 if finished{
                     UIView.animateWithDuration(animationDelayTime, animations:{
@@ -156,8 +156,8 @@ class ViewController: UIViewController {
                                                                                                                                                                                                 self.fifteenLabel.alpha = 1.0
                                                                                                                                                                                                 }, completion: {finished in
                                                                                                                                                                                                     if finished{
-                                                                                                                                                                                                        UIView.animateWithDuration(1.5, animations:{
-                                                                                                                                                                                                            self.HelloLabel.alpha = 1.0
+                                                                                                                                                                                                        UIView.animateWithDuration(animationDelayTime, animations:{
+                                                                                                                                                                                                            self.oneLabel.alpha = 1.0
                                                                                                                                                                                                             }, completion: {finished in
                                                                                                                                                                                                                 if finished{
                                                                                                                                                                                 
