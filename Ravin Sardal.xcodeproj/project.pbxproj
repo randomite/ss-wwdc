@@ -19,12 +19,12 @@
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
 		12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */; };
 		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
+		55401A761AE5E7F100335F27 /* treehacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 55401A751AE5E7F100335F27 /* treehacks.png */; };
 		55DC02F91AE5DA7700627754 /* 2000px-Flag_of_California.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DC02F81AE5DA7700627754 /* 2000px-Flag_of_California.png */; };
 		55DC02FB1AE5DA8000627754 /* apple-product-line-up-100525358-orig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DC02FA1AE5DA8000627754 /* apple-product-line-up-100525358-orig.jpg */; };
 		55DC02FF1AE5DA9500627754 /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DC02FE1AE5DA9500627754 /* coding888.jpg */; };
 		55DC03011AE5DC2000627754 /* hackathon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DC03001AE5DC2000627754 /* hackathon.png */; };
 		55DC03031AE5DC9C00627754 /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DC03021AE5DC9C00627754 /* ggbridge.jpg */; };
-		55DC03051AE5DE1C00627754 /* calhacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DC03041AE5DE1C00627754 /* calhacks.jpg */; };
 		55DC03071AE5DEF200627754 /* WWDC-2015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DC03061AE5DEF200627754 /* WWDC-2015.jpg */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +55,12 @@
 		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
 		12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
 		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		55401A751AE5E7F100335F27 /* treehacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treehacks.png; path = ../../../Downloads/treehacks.png; sourceTree = "<group>"; };
 		55DC02F81AE5DA7700627754 /* 2000px-Flag_of_California.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2000px-Flag_of_California.png"; path = "../../../Downloads/2000px-Flag_of_California.png"; sourceTree = "<group>"; };
 		55DC02FA1AE5DA8000627754 /* apple-product-line-up-100525358-orig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "apple-product-line-up-100525358-orig.jpg"; path = "../../../Downloads/apple-product-line-up-100525358-orig.jpg"; sourceTree = "<group>"; };
 		55DC02FE1AE5DA9500627754 /* coding888.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coding888.jpg; path = ../../../Downloads/coding888.jpg; sourceTree = "<group>"; };
 		55DC03001AE5DC2000627754 /* hackathon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hackathon.png; path = ../../../Downloads/hackathon.png; sourceTree = "<group>"; };
 		55DC03021AE5DC9C00627754 /* ggbridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ggbridge.jpg; path = ../../../Downloads/ggbridge.jpg; sourceTree = "<group>"; };
-		55DC03041AE5DE1C00627754 /* calhacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calhacks.jpg; path = ../../../.Trash/calhacks.jpg; sourceTree = "<group>"; };
 		55DC03061AE5DEF200627754 /* WWDC-2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "WWDC-2015.jpg"; path = "../../../Downloads/WWDC-2015.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +114,8 @@
 				55DC02F81AE5DA7700627754 /* 2000px-Flag_of_California.png */,
 				55DC02FE1AE5DA9500627754 /* coding888.jpg */,
 				55DC03021AE5DC9C00627754 /* ggbridge.jpg */,
-				55DC03041AE5DE1C00627754 /* calhacks.jpg */,
 				55DC03061AE5DEF200627754 /* WWDC-2015.jpg */,
+				55401A751AE5E7F100335F27 /* treehacks.png */,
 				55DC03001AE5DC2000627754 /* hackathon.png */,
 				55DC02FA1AE5DA8000627754 /* apple-product-line-up-100525358-orig.jpg */,
 				127FEF001AE4A0C400D03FEF /* logoWWDC.png */,
@@ -231,10 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55401A761AE5E7F100335F27 /* treehacks.png in Resources */,
 				55DC02FF1AE5DA9500627754 /* coding888.jpg in Resources */,
 				55DC02FB1AE5DA8000627754 /* apple-product-line-up-100525358-orig.jpg in Resources */,
 				55DC02F91AE5DA7700627754 /* 2000px-Flag_of_California.png in Resources */,
-				55DC03051AE5DE1C00627754 /* calhacks.jpg in Resources */,
 				55DC03031AE5DC9C00627754 /* ggbridge.jpg in Resources */,
 				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
 				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
