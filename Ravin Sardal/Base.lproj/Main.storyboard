@@ -246,6 +246,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backing5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="72A-8g-BVx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-TN-Ogv">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
@@ -371,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UjQ-h6-edZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1151" y="401"/>
+            <point key="canvasLocation" x="1328.5" y="403.5"/>
         </scene>
         <!--About Me View Contoller-->
         <scene sceneID="dzO-bD-KJf">
@@ -519,6 +522,7 @@
     </scenes>
     <resources>
         <image name="apple_wwdc.png" width="1920" height="1080"/>
+        <image name="backing5.jpg" width="325" height="576"/>
         <image name="circuit.jpg" width="1920" height="1080"/>
         <image name="coding888.jpg" width="4000" height="2638"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
@@ -530,6 +534,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="2Te-Wl-Kt7"/>
+        <segue reference="6b7-vN-1dh"/>
     </inferredMetricsTieBreakers>
 </document>

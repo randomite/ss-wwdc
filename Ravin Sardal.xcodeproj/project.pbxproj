@@ -18,6 +18,8 @@
 		1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234C5691AE493D5006D2898 /* ConferenceViewController.swift */; };
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
 		12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */; };
+		12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12AF09B01AE6179E0054A50E /* backing.jpeg */; };
+		12AF09B31AE617D50054A50E /* backing5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12AF09B21AE617D50054A50E /* backing5.jpg */; };
 		12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */; };
 		55BF20EC1AE5EB2700401A6A /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
 		55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
@@ -53,6 +55,8 @@
 		1234C5691AE493D5006D2898 /* ConferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
 		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
 		12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		12AF09B01AE6179E0054A50E /* backing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backing.jpeg; sourceTree = "<group>"; };
+		12AF09B21AE617D50054A50E /* backing5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backing5.jpg; sourceTree = "<group>"; };
 		12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ggbridge.jpg; sourceTree = "<group>"; };
 		55BF20ED1AE5EB3200401A6A /* coding888.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coding888.jpg; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
 				55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */,
+				12AF09B01AE6179E0054A50E /* backing.jpeg */,
+				12AF09B21AE617D50054A50E /* backing5.jpg */,
 				55BF20ED1AE5EB3200401A6A /* coding888.jpg */,
 				55BF20EF1AE5EB3C00401A6A /* treehacks.png */,
 				55BF20F51AE5ED3A00401A6A /* apple_wwdc.png */,
@@ -235,7 +241,9 @@
 				1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */,
 				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
 				55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */,
+				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
 				55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */,
+				12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */,
 				55BF20F21AE5EB4300401A6A /* WWDC-2015.jpg in Resources */,
 				55BF20EC1AE5EB2700401A6A /* ggbridge.jpg in Resources */,
 			);

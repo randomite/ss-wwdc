@@ -18,6 +18,7 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.scroller.userInteractionEnabled = true;
         self.scroller.contentSize = CGSizeMake(375, 400)
+        //ProfileViewController.backgroundColor = UIColor(patternImage:UIImage(named: "backing.jpg"))
     }
     
     override func didReceiveMemoryWarning() {
