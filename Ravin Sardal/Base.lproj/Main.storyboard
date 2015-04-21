@@ -248,28 +248,19 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-TN-Ogv">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WWDC-2015.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="swD-Ka-79Y">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple_wwdc.png" translatesAutoresizingMaskIntoConstraints="NO" id="swD-Ka-79Y">
                                         <rect key="frame" x="0.0" y="425" width="320" height="143"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KT0-1b-ei4">
-                                        <rect key="frame" x="-1" y="429" width="321" height="137"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                        <inset key="contentEdgeInsets" minX="140" minY="110" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Why WWDC">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treehacks.png" translatesAutoresizingMaskIntoConstraints="NO" id="cet-cJ-1I3">
-                                        <rect key="frame" x="0.0" y="282" width="320" height="143"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coding888.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="94f-o8-Bdf">
-                                        <rect key="frame" x="0.0" y="134" width="320" height="148"/>
+                                        <rect key="frame" x="0.0" y="278" width="320" height="148"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ggbridge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xX2-Yx-7Mk">
+                                        <rect key="frame" x="0.0" y="-10" width="320" height="147"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9y-ef-2ia">
-                                        <rect key="frame" x="2" y="134" width="316" height="148"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                        <inset key="contentEdgeInsets" minX="70" minY="110" maxX="0.0" maxY="0.0"/>
+                                        <rect key="frame" x="3" y="279" width="316" height="148"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <inset key="contentEdgeInsets" minX="62" minY="110" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Accomplishments">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -278,12 +269,24 @@
                                             <segue destination="Rly-F2-oZO" kind="modal" id="Tfp-dC-Q9e"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ggbridge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xX2-Yx-7Mk">
-                                        <rect key="frame" x="0.0" y="-10" width="320" height="147"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circuit.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cet-cJ-1I3">
+                                        <rect key="frame" x="0.0" y="136" width="320" height="143"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV5-LK-d52">
+                                        <rect key="frame" x="1" y="140" width="318" height="141"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <inset key="contentEdgeInsets" minX="190" minY="110" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Interests">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6k8-ep-TDI" kind="modal" id="M0o-ut-71E"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B93-Rb-csT">
-                                        <rect key="frame" x="-1" y="-3" width="320" height="140"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                        <rect key="frame" x="0.0" y="-3" width="320" height="140"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <inset key="contentEdgeInsets" minX="175" minY="110" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="About Me">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -293,16 +296,16 @@
                                             <segue destination="fnA-Ym-XLH" kind="modal" id="KN6-Kq-Yy4"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV5-LK-d52">
-                                        <rect key="frame" x="0.0" y="282" width="318" height="141"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                        <inset key="contentEdgeInsets" minX="190" minY="110" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Interests">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KT0-1b-ei4">
+                                        <rect key="frame" x="0.0" y="429" width="321" height="137"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <inset key="contentEdgeInsets" minX="140" minY="110" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Why WWDC">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="6k8-ep-TDI" kind="modal" id="M0o-ut-71E"/>
+                                            <segue destination="Gw7-hd-CyY" kind="modal" id="zte-1Z-n7c"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -498,11 +501,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="WWDC-2015.jpg" width="1300" height="731"/>
+        <image name="apple_wwdc.png" width="1920" height="1080"/>
+        <image name="circuit.jpg" width="1920" height="1080"/>
         <image name="coding888.jpg" width="4000" height="2638"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
         <image name="logoWWDC.png" width="1250" height="1250"/>
-        <image name="treehacks.png" width="1214" height="630"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
