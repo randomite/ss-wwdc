@@ -316,6 +316,7 @@ class ViewController: UIViewController {
                             if finished{
                                 UIView.animateWithDuration(1.5, animations:{
                                     self.wwdcLogo.alpha = 1.0
+                                    self.pulsateWWDCButton()
                                 })
                             }
                     })
@@ -323,6 +324,29 @@ class ViewController: UIViewController {
         })
         
         
+    }
+    
+    /*
+        modify this function to smoth go back to alpha 1.0
+    */
+    func pulsateWWDCButton(){
+        UIView.animateWithDuration(2.0, animations: {
+            self.HelloWWDCLabel.alpha = 1.0
+            }, completion: { finished in
+                if finished{
+                    UIView.animateWithDuration(2.0, animations: {
+                        self.HelloWWDCLabel.alpha = 0.0
+                        },completion:{ finished in
+                            if finished{
+                                UIView.animateWithDuration(2.0, animations: {
+                                    self.HelloWWDCLabel.alpha = 1.0
+                                    self.pulsateWWDCButton()
+                                })
+                            }
+                            
+                    })
+                }
+        })
     }
 
 
