@@ -26,6 +26,14 @@ class AccomplishmentsViewContoller: UIViewController {
     }
     
     @IBAction func backToHome(sender: AnyObject) {
-        println("works")
+        println("back to home menu")
+    }
+    @IBAction func openRescueMe(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://itunes.apple.com/us/app/rescue-me-i-need-help/id892281526?mt=8")!)
+
+    }
+    
+    @IBAction func openMatherobicApp(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://itunes.apple.com/us/app/matherobic/id884408928?mt=8")!)
     }
 }

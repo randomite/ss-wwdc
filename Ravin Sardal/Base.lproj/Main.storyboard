@@ -352,7 +352,7 @@
                         <viewControllerLayoutGuide type="bottom" id="my8-rY-EVX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="D1p-Ib-wJ6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accomplishments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6x-CS-yXo">
@@ -377,14 +377,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="i1R-7f-Vwt" kind="modal" id="0xm-aR-3Pb"/>
+                                    <action selector="openRescueMe:" destination="Rly-F2-oZO" eventType="touchUpInside" id="Ifo-TN-EKp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPa-qI-bwE">
-                                <rect key="frame" x="172" y="147" width="132" height="30"/>
-                                <state key="normal" title="**Matherobic App**">
+                                <rect key="frame" x="183" y="154" width="110" height="30"/>
+                                <state key="normal" title="Matherobic App">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openMatherobicApp:" destination="Rly-F2-oZO" eventType="touchUpInside" id="EKB-vf-lKq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -395,44 +398,6 @@
             </objects>
             <point key="canvasLocation" x="1550.5" y="-22.5"/>
         </scene>
-        <!--Rescue Me Web View-->
-        <scene sceneID="x4F-XL-VMs">
-            <objects>
-                <viewController id="i1R-7f-Vwt" customClass="RescueMeWebView" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lnI-Ja-ao6"/>
-                        <viewControllerLayoutGuide type="bottom" id="fNX-6D-pdw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gn5-9L-o9y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TuS-Mi-E40">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="done" id="BwZ-LP-ATG">
-                                        <connections>
-                                            <segue destination="Rly-F2-oZO" kind="modal" id="K7B-44-gRl"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYd-TA-VgV">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="myWebView" destination="bYd-TA-VgV" id="a4n-bT-XOs"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sxv-le-2vb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1993.5" y="-519.5"/>
-        </scene>
         <!--About Me View Contoller-->
         <scene sceneID="dzO-bD-KJf">
             <objects>
@@ -442,7 +407,7 @@
                         <viewControllerLayoutGuide type="bottom" id="rbl-nP-dFY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gAS-bg-j4l">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSx-bF-kn5">
@@ -515,7 +480,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PCU-rU-fic"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PvN-Yg-JQg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why WWDC?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcW-xv-azW">
@@ -592,6 +557,5 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="kRt-R8-fzX"/>
-        <segue reference="K7B-44-gRl"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12188A6C1AE81B58008BBAE7 /* RescueMeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12188A6B1AE81B58008BBAE7 /* RescueMeWebView.swift */; };
 		121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */; };
 		121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */; };
 		1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2B1ADF902800463FF4 /* AppDelegate.swift */; };
@@ -75,7 +74,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12188A6B1AE81B58008BBAE7 /* RescueMeWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RescueMeWebView.swift; sourceTree = "<group>"; };
 		121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewContoller.swift; sourceTree = "<group>"; };
 		121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccomplishmentsViewContoller.swift; sourceTree = "<group>"; };
 		1228FF261ADF902800463FF4 /* Ravin Sardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravin Sardal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,7 +161,6 @@
 				1228FF2B1ADF902800463FF4 /* AppDelegate.swift */,
 				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
 				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
-				12188A6B1AE81B58008BBAE7 /* RescueMeWebView.swift */,
 				1234C5691AE493D5006D2898 /* ConferenceViewController.swift */,
 				12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */,
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
@@ -418,7 +415,6 @@
 			files = (
 				12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */,
 				1234C56A1AE493D5006D2898 /* ConferenceViewController.swift in Sources */,
-				12188A6C1AE81B58008BBAE7 /* RescueMeWebView.swift in Sources */,
 				12D39A7D1AE2C03D000622A2 /* ProfileViewController.swift in Sources */,
 				1228FF2E1ADF902800463FF4 /* ViewController.swift in Sources */,
 				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
@@ -719,6 +715,7 @@
 				1265E2381AE848F800D1D40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1265E23A1AE848F800D1D40C /* Build configuration list for PBXNativeTarget "Ravin Sardal WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +724,7 @@
 				1265E2361AE848F800D1D40C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
