@@ -381,8 +381,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPa-qI-bwE">
-                                <rect key="frame" x="179" y="147" width="110" height="30"/>
-                                <state key="normal" title="Matherobic App">
+                                <rect key="frame" x="172" y="147" width="132" height="30"/>
+                                <state key="normal" title="**Matherobic App**">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
