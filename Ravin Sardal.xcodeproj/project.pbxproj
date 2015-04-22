@@ -22,6 +22,14 @@
 		1265E22F1AE848F800D1D40C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1265E22D1AE848F800D1D40C /* Interface.storyboard */; };
 		1265E2311AE848F800D1D40C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1265E2301AE848F800D1D40C /* Images.xcassets */; };
 		1265E2341AE848F800D1D40C /* Ravin Sardal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1265E21C1AE848F800D1D40C /* Ravin Sardal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		126FA4E61AE8503A00D7E948 /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
+		126FA4E71AE8503B00D7E948 /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
+		126FA4E81AE8504100D7E948 /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
+		126FA4E91AE8504200D7E948 /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
+		126FA4EA1AE8504500D7E948 /* apple_wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F51AE5ED3A00401A6A /* apple_wwdc.png */; };
+		126FA4EB1AE8504600D7E948 /* apple_wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F51AE5ED3A00401A6A /* apple_wwdc.png */; };
+		126FA4EC1AE8504900D7E948 /* circuit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F31AE5EC2B00401A6A /* circuit.jpg */; };
+		126FA4ED1AE8504900D7E948 /* circuit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F31AE5EC2B00401A6A /* circuit.jpg */; };
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
 		12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */; };
 		12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12AF09B01AE6179E0054A50E /* backing.jpeg */; };
@@ -392,7 +400,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126FA4E81AE8504100D7E948 /* coding888.jpg in Resources */,
+				126FA4E61AE8503A00D7E948 /* ggbridge.jpg in Resources */,
 				1265E2231AE848F800D1D40C /* Images.xcassets in Resources */,
+				126FA4EC1AE8504900D7E948 /* circuit.jpg in Resources */,
+				126FA4EA1AE8504500D7E948 /* apple_wwdc.png in Resources */,
 				1265E2271AE848F800D1D40C /* Ravin Sardal WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +413,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126FA4E91AE8504200D7E948 /* coding888.jpg in Resources */,
+				126FA4E71AE8503B00D7E948 /* ggbridge.jpg in Resources */,
 				1265E22F1AE848F800D1D40C /* Interface.storyboard in Resources */,
+				126FA4ED1AE8504900D7E948 /* circuit.jpg in Resources */,
+				126FA4EB1AE8504600D7E948 /* apple_wwdc.png in Resources */,
 				1265E2311AE848F800D1D40C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
