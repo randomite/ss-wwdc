@@ -10,35 +10,20 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Ravin_Sardal_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Button" id="N4x-Mk-kqR">
+                        <button width="1" alignment="left" title="Button" id="6Qa-f4-JYH">
                             <variation key="device=watch42mm" title="About Me"/>
                         </button>
-                        <button width="1" alignment="left" title="Button" id="D0u-TK-1Dd">
+                        <button width="1" alignment="left" title="Button" id="KL2-bR-g9a">
                             <variation key="device=watch42mm" title="Interests"/>
                         </button>
-                        <button width="1" alignment="left" title="Button" id="23u-hj-3MD">
+                        <button width="1" alignment="left" title="Button" id="thP-Vx-683">
+                            <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" title="Accomplishments"/>
                         </button>
-                        <button width="1" alignment="left" title="Button" id="oFy-74-tup">
+                        <button width="1" alignment="left" title="Button" id="8eg-fG-MfF">
                             <variation key="device=watch42mm" title="Why WWDC"/>
                         </button>
                     </items>
-                    <variation key="default">
-                        <mask key="items">
-                            <exclude reference="N4x-Mk-kqR"/>
-                            <exclude reference="D0u-TK-1Dd"/>
-                            <exclude reference="23u-hj-3MD"/>
-                            <exclude reference="oFy-74-tup"/>
-                        </mask>
-                    </variation>
-                    <variation key="device=watch42mm">
-                        <mask key="items">
-                            <include reference="N4x-Mk-kqR"/>
-                            <include reference="D0u-TK-1Dd"/>
-                            <include reference="23u-hj-3MD"/>
-                            <include reference="oFy-74-tup"/>
-                        </mask>
-                    </variation>
                 </controller>
             </objects>
             <point key="canvasLocation" x="226.66666666666669" y="261.97435897435901"/>
