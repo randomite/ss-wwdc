@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         self.HelloLabel.alpha = 0.0
         self.HelloLabel.enabled = false
         self.HelloLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
-        self.HelloWWDCLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        //self.HelloWWDCLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
         
 
     }
@@ -316,7 +316,8 @@ class ViewController: UIViewController {
                             if finished{
                                 UIView.animateWithDuration(1.5, animations:{
                                     self.wwdcLogo.alpha = 1.0
-                                    self.pulsateWWDCButton()
+                                    //self.addColorAndBackgroundToButton()
+                                    //self.pulsateWWDCButton()
                                 })
                             }
                     })
@@ -324,6 +325,16 @@ class ViewController: UIViewController {
         })
         
         
+    }
+    
+    func addColorAndBackgroundToButton(){
+        UIView.animateWithDuration(1.5, animations:{
+          self.HelloWWDCLabel.backgroundColor = UIColor.blueColor()
+            },completion:{ finished in
+                if finished{
+                    self.HelloWWDCLabel.setTitleColor(UIColor.whiteColor(),forState: UIControlState.Normal)
+                }
+            })
     }
     
     /*

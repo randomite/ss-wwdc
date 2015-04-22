@@ -17,16 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l67-og-Zio">
-                                <rect key="frame" x="44" y="307" width="286" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Hello World">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="dks-Hw-yyB" kind="modal" id="2Te-Wl-Kt7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="你好世界" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbK-93-SkB">
                                 <rect key="frame" x="210" y="621" width="348" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -123,19 +113,37 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="has-Xh-Dzi">
-                                <rect key="frame" x="16" y="307" width="343" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWWDC.png" translatesAutoresizingMaskIntoConstraints="NO" id="0kF-lK-lOK">
+                                <rect key="frame" x="42" y="79" width="291" height="291"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l67-og-Zio">
+                                <rect key="frame" x="44" y="307" width="286" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Hello WWDC15">
+                                <state key="normal" title="Hello World">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dks-Hw-yyB" kind="modal" id="2Te-Wl-Kt7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="has-Xh-Dzi">
+                                <rect key="frame" x="94" y="300" width="186" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Hello WWDC15">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="dks-Hw-yyB" kind="modal" id="6b7-vN-1dh"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWWDC.png" translatesAutoresizingMaskIntoConstraints="NO" id="0kF-lK-lOK">
-                                <rect key="frame" x="42" y="85" width="291" height="291"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -155,18 +163,15 @@
                             <constraint firstItem="x8T-oZ-wm5" firstAttribute="top" secondItem="Y8V-sl-JT4" secondAttribute="bottom" constant="30" id="CpP-qD-c0f"/>
                             <constraint firstItem="JbK-93-SkB" firstAttribute="top" secondItem="x8T-oZ-wm5" secondAttribute="bottom" constant="39" id="FK7-zv-9cx"/>
                             <constraint firstItem="2J3-PT-8jE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="23" id="GPu-fS-iHl"/>
-                            <constraint firstItem="has-Xh-Dzi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="H3C-tf-8Tu"/>
                             <constraint firstItem="AWZ-Ie-qYA" firstAttribute="top" secondItem="79N-DT-vEI" secondAttribute="bottom" constant="27" id="Ihy-uY-yWB"/>
                             <constraint firstItem="AWZ-Ie-qYA" firstAttribute="top" secondItem="w3M-Vr-cML" secondAttribute="bottom" constant="61" id="J6B-NF-Nj6"/>
                             <constraint firstItem="ivi-6y-Tfa" firstAttribute="top" secondItem="l67-og-Zio" secondAttribute="bottom" constant="43" id="JAU-Rh-GLb"/>
                             <constraint firstItem="Y8V-sl-JT4" firstAttribute="top" secondItem="ivi-6y-Tfa" secondAttribute="bottom" constant="48" id="KkV-rg-a5X"/>
                             <constraint firstItem="JbK-93-SkB" firstAttribute="top" secondItem="x8T-oZ-wm5" secondAttribute="bottom" constant="39" id="MNi-5V-MXs"/>
-                            <constraint firstItem="X5z-F4-kNb" firstAttribute="top" secondItem="has-Xh-Dzi" secondAttribute="bottom" constant="20" id="POj-BN-63t"/>
                             <constraint firstItem="x8T-oZ-wm5" firstAttribute="leading" secondItem="5Ey-eL-kRU" secondAttribute="trailing" constant="53" id="PrZ-1T-1JV"/>
                             <constraint firstItem="wLD-ct-wS9" firstAttribute="top" secondItem="NqC-vz-fgE" secondAttribute="bottom" constant="24" id="QMD-Mm-aKV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ivi-6y-Tfa" secondAttribute="trailing" constant="12" id="Qnt-DY-16E"/>
                             <constraint firstItem="wLD-ct-wS9" firstAttribute="leading" secondItem="55Y-BT-6xV" secondAttribute="trailing" constant="91" id="Rdu-gv-cCC"/>
-                            <constraint firstItem="has-Xh-Dzi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Rtj-8e-Ozq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wLD-ct-wS9" secondAttribute="trailing" constant="12" id="S3m-Rk-XA1"/>
                             <constraint firstItem="47E-Gd-XFz" firstAttribute="top" secondItem="wLD-ct-wS9" secondAttribute="bottom" constant="24" id="Wkc-p2-fGv"/>
                             <constraint firstItem="47E-Gd-XFz" firstAttribute="leading" secondItem="5ah-of-O1P" secondAttribute="trailing" constant="51" id="Wkx-Mv-UK1"/>
@@ -187,7 +192,6 @@
                             <constraint firstItem="JbK-93-SkB" firstAttribute="leading" secondItem="6wL-Dz-ink" secondAttribute="trailing" constant="72" id="gWX-tf-8os"/>
                             <constraint firstItem="ivi-6y-Tfa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="157" id="gYy-lc-XEF"/>
                             <constraint firstItem="X5z-F4-kNb" firstAttribute="top" secondItem="l67-og-Zio" secondAttribute="bottom" constant="20" id="geh-Cv-WX1"/>
-                            <constraint firstItem="has-Xh-Dzi" firstAttribute="top" secondItem="2J3-PT-8jE" secondAttribute="bottom" constant="28" id="h1t-4W-qNq"/>
                             <constraint firstItem="5Ey-eL-kRU" firstAttribute="top" secondItem="ibd-eb-Bij" secondAttribute="bottom" constant="38" id="hQj-o2-0VT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="w3M-Vr-cML" secondAttribute="trailing" constant="11" id="iBD-hr-0xe"/>
                             <constraint firstItem="2J3-PT-8jE" firstAttribute="top" secondItem="79N-DT-vEI" secondAttribute="bottom" constant="37" id="izG-JJ-LK5"/>
