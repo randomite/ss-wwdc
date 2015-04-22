@@ -340,7 +340,11 @@ class ViewController: UIViewController {
                             if finished{
                                 UIView.animateWithDuration(2.0, animations: {
                                     self.HelloWWDCLabel.alpha = 1.0
-                                    self.pulsateWWDCButton()
+                                    //self.pulsateWWDCButton()
+                                },completion:{ finished in
+                                    if finished{
+                                        self.pulsateWWDCButton()
+                                    }
                                 })
                             }
                             
