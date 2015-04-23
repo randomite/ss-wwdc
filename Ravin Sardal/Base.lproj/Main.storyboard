@@ -355,7 +355,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPy-qN-yhh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPy-qN-yhh">
                                 <rect key="frame" x="43" y="112" width="288" height="290"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -425,11 +425,11 @@
                         <viewControllerLayoutGuide type="bottom" id="rbl-nP-dFY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gAS-bg-j4l">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:             Ravin Sardal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Va2-in-5vD">
-                                <rect key="frame" x="16" y="346" width="209" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ravin Sardal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Va2-in-5vD">
+                                <rect key="frame" x="152" y="312" width="102" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -468,23 +468,24 @@
                                     <segue destination="dks-Hw-yyB" kind="modal" id="FfC-rp-wXr"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePicture.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-CY-ePZ">
+                                <rect key="frame" x="83" y="64" width="240" height="240"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age:                18" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5o-8K-rW4">
                                 <rect key="frame" x="16" y="375" width="131" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePicture.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-CY-ePZ">
-                                <rect key="frame" x="40" y="64" width="240" height="240"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="O5G-0T-EN3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tP1-Xg-gKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1107" y="-21.999999999999996"/>
+            <point key="canvasLocation" x="1107" y="-22"/>
         </scene>
         <!--Conference View Controller-->
         <scene sceneID="nqJ-zL-rdY">
@@ -516,8 +517,8 @@
                                             <segue destination="dks-Hw-yyB" kind="modal" id="9f7-DO-64L"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="I used an iPhone 3gs for the first time in 2007, I was fascinated by iOS" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-pH-xUt">
-                                        <rect key="frame" x="162" y="106" width="196" height="66"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="I used an iPhone 3gs for the first time in 2007, I was fascinated by iOS" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-pH-xUt">
+                                        <rect key="frame" x="162" y="106" width="196" height="71"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -528,7 +529,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQL-iR-Cs9">
                                         <rect key="frame" x="182" y="264" width="157" height="100"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Then I got my first mac in 2010 which gave me the chance to make some iOS aps for fun." translatesAutoresizingMaskIntoConstraints="NO" id="fGQ-YF-OPr">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Then I got my first mac in 2010 which gave me the chance to make some iOS aps for fun." translatesAutoresizingMaskIntoConstraints="NO" id="fGQ-YF-OPr">
                                         <rect key="frame" x="8" y="264" width="141" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -537,7 +538,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kMK-US-IOD">
                                         <rect key="frame" x="8" y="432" width="103" height="85"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="First app that I made was a Flash Light app for the iPhone 4, named light hero, it had an iron man theme." translatesAutoresizingMaskIntoConstraints="NO" id="sGq-nh-ZUl">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="First app that I made was a Flash Light app for the iPhone 4, named light hero, it had an iron man theme." translatesAutoresizingMaskIntoConstraints="NO" id="sGq-nh-ZUl">
                                         <rect key="frame" x="127" y="433" width="240" height="84"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
