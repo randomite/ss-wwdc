@@ -11,9 +11,12 @@ import UIKit
 
 class ConferenceViewController: UIViewController {
     
+    @IBOutlet var scoller: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.scoller.userInteractionEnabled = true;
+        self.scoller.contentSize = CGSizeMake(375, 400)
     }
     
     override func didReceiveMemoryWarning() {
