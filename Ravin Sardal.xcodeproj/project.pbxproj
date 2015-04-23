@@ -22,6 +22,8 @@
 		1265E22F1AE848F800D1D40C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1265E22D1AE848F800D1D40C /* Interface.storyboard */; };
 		1265E2311AE848F800D1D40C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1265E2301AE848F800D1D40C /* Images.xcassets */; };
 		1265E2341AE848F800D1D40C /* Ravin Sardal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1265E21C1AE848F800D1D40C /* Ravin Sardal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		126A7A9E1AE8BC5B00653C54 /* rescueMINH_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 126A7A9C1AE8BC5B00653C54 /* rescueMINH_image.png */; };
+		126A7A9F1AE8BC5B00653C54 /* matherobic_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 126A7A9D1AE8BC5B00653C54 /* matherobic_image.png */; };
 		126FA4E61AE8503A00D7E948 /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
 		126FA4E71AE8503B00D7E948 /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
 		126FA4E81AE8504100D7E948 /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
@@ -103,6 +105,8 @@
 		1265E22C1AE848F800D1D40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1265E22E1AE848F800D1D40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1265E2301AE848F800D1D40C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		126A7A9C1AE8BC5B00653C54 /* rescueMINH_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rescueMINH_image.png; sourceTree = "<group>"; };
+		126A7A9D1AE8BC5B00653C54 /* matherobic_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matherobic_image.png; sourceTree = "<group>"; };
 		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
 		12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
 		12AF09B01AE6179E0054A50E /* backing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backing.jpeg; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				126A7A9C1AE8BC5B00653C54 /* rescueMINH_image.png */,
+				126A7A9D1AE8BC5B00653C54 /* matherobic_image.png */,
 				55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */,
 				12AF09B01AE6179E0054A50E /* backing.jpeg */,
 				12AF09B21AE617D50054A50E /* backing5.jpg */,
@@ -376,10 +382,12 @@
 			files = (
 				55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */,
 				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
+				126A7A9E1AE8BC5B00653C54 /* rescueMINH_image.png in Resources */,
 				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
 				55BF20F61AE5ED3A00401A6A /* apple_wwdc.png in Resources */,
 				1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */,
 				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
+				126A7A9F1AE8BC5B00653C54 /* matherobic_image.png in Resources */,
 				55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */,
 				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
 				55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */,

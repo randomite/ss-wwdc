@@ -378,18 +378,9 @@
                                     <segue destination="dks-Hw-yyB" kind="modal" id="kRt-R8-fzX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vf-JW-hlh">
-                                <rect key="frame" x="49" y="239" width="110" height="30"/>
-                                <state key="normal" title="Rescue Me App">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="openRescueMe:" destination="Rly-F2-oZO" eventType="touchUpInside" id="Ifo-TN-EKp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPa-qI-bwE">
-                                <rect key="frame" x="221" y="239" width="110" height="30"/>
-                                <state key="normal" title="Matherobic App">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPa-qI-bwE">
+                                <rect key="frame" x="216" y="199" width="115" height="116"/>
+                                <state key="normal" title="Matherobic App" image="matherobic_image.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -403,6 +394,13 @@
                                     <outlet property="delegate" destination="Rly-F2-oZO" id="GA6-Z3-32K"/>
                                 </connections>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vf-JW-hlh">
+                                <rect key="frame" x="43" y="202" width="109" height="109"/>
+                                <state key="normal" title="Rescue Me App" image="rescueMINH_image.png"/>
+                                <connections>
+                                    <action selector="openRescueMe:" destination="Rly-F2-oZO" eventType="touchUpInside" id="Ifo-TN-EKp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -569,6 +567,8 @@
         <image name="coding888.jpg" width="4000" height="2638"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
         <image name="logoWWDC.png" width="1250" height="1250"/>
+        <image name="matherobic_image.png" width="400" height="400"/>
+        <image name="rescueMINH_image.png" width="384" height="380"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
