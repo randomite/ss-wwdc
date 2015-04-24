@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1207BDAB1AE9D20900C937BA /* profilePictureBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 1207BDAA1AE9D20900C937BA /* profilePictureBlurred.png */; };
 		121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */; };
 		121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */; };
 		1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228FF2B1ADF902800463FF4 /* AppDelegate.swift */; };
@@ -85,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1207BDAA1AE9D20900C937BA /* profilePictureBlurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePictureBlurred.png; sourceTree = "<group>"; };
 		121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewContoller.swift; sourceTree = "<group>"; };
 		121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccomplishmentsViewContoller.swift; sourceTree = "<group>"; };
 		1228FF261ADF902800463FF4 /* Ravin Sardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravin Sardal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +182,7 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				1207BDAA1AE9D20900C937BA /* profilePictureBlurred.png */,
 				12A12FB81AE8CE3E00D926CE /* profilePicture.png */,
 				1258CBD51AE8C09C009CB3AD /* rescueMINH_image2.png */,
 				1258CBD61AE8C09C009CB3AD /* matherobic_image2.png */,
@@ -392,6 +395,7 @@
 				55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */,
 				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
 				1258CBD81AE8C09C009CB3AD /* matherobic_image2.png in Resources */,
+				1207BDAB1AE9D20900C937BA /* profilePictureBlurred.png in Resources */,
 				55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */,
 				12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */,
 				55BF20F21AE5EB4300401A6A /* WWDC-2015.jpg in Resources */,
