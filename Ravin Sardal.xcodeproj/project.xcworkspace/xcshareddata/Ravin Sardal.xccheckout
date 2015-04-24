@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>58DC967A-98EC-47F1-B499-8ED1F2A165FF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Ravin Sardal</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>700DBDD2E288A85798D408755268B9B2890CA490</key>
 		<string>https://github.com/randomite/ss-wwdc.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ravin Sardal.xcodeproj</string>
+	<string>Ravin Sardal.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>700DBDD2E288A85798D408755268B9B2890CA490</key>
