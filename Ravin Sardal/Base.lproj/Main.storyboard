@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -457,29 +457,49 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lgn-sI-vcz">
-                                <rect key="frame" x="16" y="427" width="111" height="96"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adl-Bs-xvs">
-                                <rect key="frame" x="241" y="427" width="127" height="96"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S0M-YY-vRR">
-                                <rect key="frame" x="16" y="576" width="107" height="71"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bU-LI-QKM">
-                                <rect key="frame" x="242" y="560" width="124" height="87"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9O-JS-XIM">
-                                <rect key="frame" x="137" y="514" width="101" height="80"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCr-w1-lbM">
+                                <rect key="frame" x="16" y="405" width="100" height="100"/>
+                                <state key="normal" image="twitter.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrv-2c-7Wy">
+                                <rect key="frame" x="259" y="547" width="100" height="100"/>
+                                <state key="normal" title="Button" image="facebookWhite.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jb-En-yVO">
+                                <rect key="frame" x="16" y="547" width="100" height="100"/>
+                                <state key="normal" image="email.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhq-IQ-7jb">
+                                <rect key="frame" x="259" y="405" width="100" height="100"/>
+                                <state key="normal" title="Button" image="linkedin.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6N-8u-Mhc">
+                                <rect key="frame" x="137" y="475" width="100" height="100"/>
+                                <state key="normal" title="Button" image="githubWhite.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="O5G-0T-EN3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="emailButton" destination="7Jb-En-yVO" id="bGk-CM-1Vm"/>
+                        <outlet property="facebookButton" destination="vrv-2c-7Wy" id="E7K-en-bJP"/>
+                        <outlet property="githubButton" destination="e6N-8u-Mhc" id="LVI-At-eQX"/>
+                        <outlet property="linkedinButton" destination="dhq-IQ-7jb" id="p58-jh-qnL"/>
                         <outlet property="myDescriptionTextView" destination="KXC-8q-HLZ" id="XeY-pR-nyt"/>
                         <outlet property="myNameLabel" destination="zLt-2S-3bA" id="h2y-mX-TJR"/>
+                        <outlet property="twitterButton" destination="UCr-w1-lbM" id="gHU-X0-STB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tP1-Xg-gKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -602,11 +622,16 @@
         <image name="blueBacking.jpeg" width="169" height="299"/>
         <image name="circuit.jpg" width="1920" height="1080"/>
         <image name="coding888.jpg" width="4000" height="2638"/>
+        <image name="email.png" width="256" height="256"/>
+        <image name="facebookWhite.png" width="256" height="254"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
+        <image name="githubWhite.png" width="418" height="417"/>
+        <image name="linkedin.png" width="256" height="256"/>
         <image name="logoWWDC.png" width="1250" height="1250"/>
         <image name="matherobic_image2.png" width="350" height="350"/>
         <image name="profilePic3.png" width="586" height="571"/>
         <image name="rescueMINH_image2.png" width="350" height="350"/>
+        <image name="twitter.png" width="212" height="209"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -614,6 +639,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9f7-DO-64L"/>
+        <segue reference="FfC-rp-wXr"/>
     </inferredMetricsTieBreakers>
 </document>

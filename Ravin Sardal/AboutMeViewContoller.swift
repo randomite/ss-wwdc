@@ -11,6 +11,13 @@ import UIKit
 
 class AboutMeViewContoller: UIViewController {
     
+    @IBOutlet var twitterButton: UIButton!
+    @IBOutlet var linkedinButton: UIButton!
+    @IBOutlet var emailButton: UIButton!
+    @IBOutlet var facebookButton: UIButton!
+    @IBOutlet var githubButton: UIButton!
+    
+    
     @IBOutlet var myDescriptionTextView: UITextView!
     @IBOutlet var myNameLabel: UILabel!
     let myNameArray = Array("Hello, my name is Ravin!")
@@ -19,7 +26,18 @@ class AboutMeViewContoller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fireTimer()
+        self.twitterButton.enabled = false
+        self.linkedinButton.enabled = false
+        self.emailButton.enabled = false
+        self.facebookButton.enabled = false
+        self.githubButton.enabled = false
+        
+        self.twitterButton.alpha = 0.0
+        self.linkedinButton.alpha = 0.0
+        self.emailButton.alpha = 0.0
+        self.facebookButton.alpha = 0.0
+        self.githubButton.alpha = 0.0
+        self.fireTimer()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -54,7 +72,7 @@ class AboutMeViewContoller: UIViewController {
     }
     
     func startChangeProfileDescriptions(){
-        UIView.animateWithDuration(7.0, animations: {
+        UIView.animateWithDuration(9.0, animations: {
             self.myDescriptionTextView.alpha = 1.0
             },completion:{ finished in
                 if finished{
@@ -62,7 +80,7 @@ class AboutMeViewContoller: UIViewController {
                         self.myDescriptionTextView.alpha = 0.0
                         },completion:{ finished in
                             if finished{
-                                UIView.animateWithDuration(7.0, animations: {
+                                UIView.animateWithDuration(9.0, animations: {
                                     self.myDescriptionTextView.text = "This summer I will be interning at Ford Motor Company in the iOS Developement division and will be working on Apple Watch apps for cars."
                                     self.myDescriptionTextView.alpha = 1.0
                                     },completion:{ finished in
@@ -71,12 +89,24 @@ class AboutMeViewContoller: UIViewController {
                                                 self.myDescriptionTextView.alpha = 0.0
                                                 },completion:{ finished in
                                                     if finished{
-                                                        UIView.animateWithDuration(7.0, animations: {
+                                                        UIView.animateWithDuration(9.0, animations: {
                                                             self.myDescriptionTextView.text = "I am familar with the following languages and frameworks:\n\niOS (Objective-C and Swift)\nNode.JS\nJava\nC/C++"
                                                             self.myDescriptionTextView.alpha = 1.0
                                                             },completion:{ finished in
                                                                 if finished{
-                                                                    
+                                                                    UIView.animateWithDuration(1.0, animations: {
+                                                                        self.myDescriptionTextView.alpha = 0.0
+                                                                        },completion:{ finished in
+                                                                            if finished{
+                                                                                UIView.animateWithDuration(1.0, animations: {
+                                                                                    self.twitterButton.alpha = 1.0
+                                                                                    self.linkedinButton.alpha = 1.0
+                                                                                    self.emailButton.alpha = 1.0
+                                                                                    self.facebookButton.alpha = 1.0
+                                                                                    self.githubButton.alpha = 1.0
+                                                                                })
+                                                                            }
+                                                                    })
                                                                 }
                                                         })
                                                     }
