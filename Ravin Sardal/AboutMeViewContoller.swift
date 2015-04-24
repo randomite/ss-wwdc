@@ -44,13 +44,52 @@ class AboutMeViewContoller: UIViewController {
             timer = NSTimer.scheduledTimerWithTimeInterval(randomInterval, target: self, selector: "typeLetter", userInfo: nil, repeats: false)
         } else {
             timer?.invalidate()
-            UIView.animateWithDuration(1.0, animations: {
-                self.myDescriptionTextView.alpha = 1.0
-            })
+            startChangeProfileDescriptions()
         }
         myCounter++
     }
 
+    override func prefersStatusBarHidden() -> Bool {
+        return true;
+    }
+    
+    func startChangeProfileDescriptions(){
+        UIView.animateWithDuration(7.0, animations: {
+            self.myDescriptionTextView.alpha = 1.0
+            },completion:{ finished in
+                if finished{
+                    UIView.animateWithDuration(1.0, animations: {
+                        self.myDescriptionTextView.alpha = 0.0
+                        },completion:{ finished in
+                            if finished{
+                                UIView.animateWithDuration(7.0, animations: {
+                                    self.myDescriptionTextView.text = "This coming summer I will be and iOS intern at Ford Motors, working on Watch-Kit applications for cars."
+                                    self.myDescriptionTextView.alpha = 1.0
+                                    },completion:{ finished in
+                                        if finished{
+                                            UIView.animateWithDuration(1.0, animations: {
+                                                self.myDescriptionTextView.alpha = 0.0
+                                                },completion:{ finished in
+                                                    if finished{
+                                                        UIView.animateWithDuration(7.0, animations: {
+                                                            self.myDescriptionTextView.text = "I am familar with the following languages and frameworks:\n\niOS (Objective-C and Swift)\nNode.JS\nJava\nC/C++"
+                                                            self.myDescriptionTextView.alpha = 1.0
+                                                            },completion:{ finished in
+                                                                if finished{
+                                                                    
+                                                                }
+                                                        })
+                                                    }
+                                            })
+                                        }
+                                })
+                            }
+                    })
+                }
+        })
+    }
+    
+    
     
 
 }

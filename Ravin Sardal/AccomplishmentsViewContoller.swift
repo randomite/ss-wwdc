@@ -97,4 +97,6 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         self.matherobicAppButton.hidden = true;
         self.myTextView.hidden = false;
     }
+    
+    
 }

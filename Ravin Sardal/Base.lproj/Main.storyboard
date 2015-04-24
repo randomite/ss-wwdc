@@ -428,27 +428,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueBacking.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="OqY-Nx-yFT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLM-eu-1rH">
                                 <rect key="frame" x="16" y="26" width="35" height="30"/>
                                 <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="dks-Hw-yyB" kind="modal" id="FfC-rp-wXr"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePicture.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-CY-ePZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePic3.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-CY-ePZ">
                                 <rect key="frame" x="67" y="64" width="240" height="240"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLt-2S-3bA">
                                 <rect key="frame" x="16" y="311" width="343" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="I am currently a freshman at San Jose State University studying Software Engineering." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KXC-8q-HLZ">
-                                <rect key="frame" x="16" y="432" width="343" height="124"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="432" width="343" height="215"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -576,12 +581,13 @@
     <resources>
         <image name="apple_wwdc.png" width="1920" height="1080"/>
         <image name="backing5.jpg" width="325" height="576"/>
+        <image name="blueBacking.jpeg" width="169" height="299"/>
         <image name="circuit.jpg" width="1920" height="1080"/>
         <image name="coding888.jpg" width="4000" height="2638"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
         <image name="logoWWDC.png" width="1250" height="1250"/>
         <image name="matherobic_image2.png" width="350" height="350"/>
-        <image name="profilePicture.png" width="682" height="743"/>
+        <image name="profilePic3.png" width="586" height="571"/>
         <image name="rescueMINH_image2.png" width="350" height="350"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
