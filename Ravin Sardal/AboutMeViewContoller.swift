@@ -105,6 +105,11 @@ class AboutMeViewContoller: UIViewController {
                                                                             if finished{
                                                                                 self.progressBar.setProgress(1.0, animated: true)
                                                                                 UIView.animateWithDuration(1.0, animations: {
+                                                                                    self.twitterButton.enabled = true
+                                                                                    self.linkedinButton.enabled = true
+                                                                                    self.emailButton.enabled = true
+                                                                                    self.facebookButton.enabled = true
+                                                                                    self.githubButton.enabled = true
                                                                                     self.twitterButton.alpha = 1.0
                                                                                     self.linkedinButton.alpha = 1.0
                                                                                     self.emailButton.alpha = 1.0
@@ -123,6 +128,26 @@ class AboutMeViewContoller: UIViewController {
                     })
                 }
         })
+    }
+    
+    @IBAction func openTwitterProfile(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://twitter.com/ravinz25")!)
+    }
+    
+    @IBAction func openLinkedinProfile(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://www.linkedin.com/pub/ravin-sardal/62/a0/27b")!)
+    }
+    
+    @IBAction func openGithubProfile(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://github.com/randomite")!)
+    }
+    
+    @IBAction func openMailTo(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "mailto:ravin.sardal@gmail.com?subject=Wanted%20to%20contact%20you%20from%20your%20WWDC%20App")!)
+    }
+    
+    @IBAction func openFacebookProfile(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://www.facebook.com/ravin.sardal")!)
     }
     
     

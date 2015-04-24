@@ -462,30 +462,45 @@
                                 <state key="normal" image="twitter.png">
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openTwitterProfile:" destination="fnA-Ym-XLH" eventType="touchUpInside" id="Q2Z-5F-0AS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrv-2c-7Wy">
                                 <rect key="frame" x="259" y="535" width="100" height="100"/>
                                 <state key="normal" title="Button" image="facebookWhite.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openFacebookProfile:" destination="fnA-Ym-XLH" eventType="touchUpInside" id="k3m-jf-Ulo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jb-En-yVO">
                                 <rect key="frame" x="16" y="535" width="100" height="100"/>
                                 <state key="normal" image="email.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openMailTo:" destination="fnA-Ym-XLH" eventType="touchUpInside" id="El7-df-2LH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhq-IQ-7jb">
                                 <rect key="frame" x="259" y="398" width="100" height="100"/>
                                 <state key="normal" title="Button" image="linkedin.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openLinkedinProfile:" destination="fnA-Ym-XLH" eventType="touchUpInside" id="V3D-GC-kRm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6N-8u-Mhc">
                                 <rect key="frame" x="137" y="471" width="100" height="100"/>
                                 <state key="normal" title="Button" image="githubWhite.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openGithubProfile:" destination="fnA-Ym-XLH" eventType="touchUpInside" id="LMd-ht-Gcj"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jtp-Lr-yrJ">
                                 <rect key="frame" x="112" y="645" width="150" height="2"/>
