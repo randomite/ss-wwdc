@@ -63,7 +63,7 @@ class AboutMeViewContoller: UIViewController {
                         },completion:{ finished in
                             if finished{
                                 UIView.animateWithDuration(7.0, animations: {
-                                    self.myDescriptionTextView.text = "This coming summer I will be and iOS intern at Ford Motors, working on Watch-Kit applications for cars."
+                                    self.myDescriptionTextView.text = "This summer I will be interning at Ford Motor Company in the iOS Developement division and will be working on Apple Watch apps for cars."
                                     self.myDescriptionTextView.alpha = 1.0
                                     },completion:{ finished in
                                         if finished{
