@@ -11,6 +11,7 @@ import UIKit
 
 class AboutMeViewContoller: UIViewController {
     
+    @IBOutlet var progressBar: UIProgressView!
     @IBOutlet var twitterButton: UIButton!
     @IBOutlet var linkedinButton: UIButton!
     @IBOutlet var emailButton: UIButton!
@@ -26,6 +27,7 @@ class AboutMeViewContoller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        progressBar.setProgress(0.0, animated: false)
         self.twitterButton.enabled = false
         self.linkedinButton.enabled = false
         self.emailButton.enabled = false
@@ -74,6 +76,7 @@ class AboutMeViewContoller: UIViewController {
     func startChangeProfileDescriptions(){
         UIView.animateWithDuration(9.0, animations: {
             self.myDescriptionTextView.alpha = 1.0
+            self.progressBar.setProgress(0.25, animated: true)
             },completion:{ finished in
                 if finished{
                     UIView.animateWithDuration(1.0, animations: {
@@ -82,6 +85,7 @@ class AboutMeViewContoller: UIViewController {
                             if finished{
                                 UIView.animateWithDuration(9.0, animations: {
                                     self.myDescriptionTextView.text = "This summer I will be interning at Ford Motor Company in the iOS Developement division and will be working on Apple Watch apps for cars."
+                                    self.progressBar.setProgress(0.5, animated: true)
                                     self.myDescriptionTextView.alpha = 1.0
                                     },completion:{ finished in
                                         if finished{
@@ -91,6 +95,7 @@ class AboutMeViewContoller: UIViewController {
                                                     if finished{
                                                         UIView.animateWithDuration(9.0, animations: {
                                                             self.myDescriptionTextView.text = "I am familar with the following languages and frameworks:\n\niOS (Objective-C and Swift)\nNode.JS\nJava\nC/C++"
+                                                            self.progressBar.setProgress(0.75, animated: true)
                                                             self.myDescriptionTextView.alpha = 1.0
                                                             },completion:{ finished in
                                                                 if finished{
@@ -98,6 +103,7 @@ class AboutMeViewContoller: UIViewController {
                                                                         self.myDescriptionTextView.alpha = 0.0
                                                                         },completion:{ finished in
                                                                             if finished{
+                                                                                self.progressBar.setProgress(1.0, animated: true)
                                                                                 UIView.animateWithDuration(1.0, animations: {
                                                                                     self.twitterButton.alpha = 1.0
                                                                                     self.linkedinButton.alpha = 1.0
