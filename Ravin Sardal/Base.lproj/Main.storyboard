@@ -311,7 +311,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="IPy-qN-yhh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="IPy-qN-yhh">
                                 <rect key="frame" x="43" y="112" width="288" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -686,7 +686,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9f7-DO-64L"/>
+        <segue reference="kRt-R8-fzX"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>

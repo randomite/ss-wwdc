@@ -79,13 +79,13 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch apps for vehicles. I am beyond excited for the opportunity to impact the lives of a plethora of drivers."
         }else if(row == 3){
             self.hideButtonsShowText()
-            self.myTextView.text = "I have developed various Pebble SmartWatch Applications for the Pebble SmartWatch that have thousands of users each. One example is ________, which serves the purpose to __________."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Applications for the Pebble SmartWatch that have thousands of users each. One example is Where Am I?, which serves the purpose to user coordinates, and an approximate address with the flick of the wrist."
         }else if(row == 4){
             self.hideButtonsShowText()
             self.myTextView.text = "I maintain a YouTube channel in which I make tutorials for users to learn Apple WatchKit development and am proud that this channel has over 25,000 views and a few hundred subscribers. A friend of mine started watching my videos and is now working on his own Watch app. It feels incredible to know that I have inspired someone to innovate."
         }else if(row == 5){
             self.hideButtonsShowText()
-            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is participating in hackathons. I have won many hackathons such as __________."
+            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that take car data such as speed, send it to the cloud, analyzes it, and provides haptic feedback in the vehicle such as steering wheel vibration."
         }
 
     }
