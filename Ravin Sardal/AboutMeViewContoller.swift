@@ -71,10 +71,6 @@ class AboutMeViewContoller: UIViewController {
         }
         myCounter++
     }
-
-    override func prefersStatusBarHidden() -> Bool {
-        return true;
-    }
     
     func startChangeProfileDescriptions(){
         UIView.animateWithDuration(9.0, animations: {
