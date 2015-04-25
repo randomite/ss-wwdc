@@ -530,31 +530,32 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="WnP-bm-FJ1">
-                                <rect key="frame" x="8" y="-222" width="375" height="979"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="1814"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Wod-zq-DLo">
-                                        <rect key="frame" x="8" y="60" width="137" height="111"/>
+                                        <rect key="frame" x="8" y="36" width="137" height="111"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="dQL-iR-Cs9">
-                                        <rect key="frame" x="223" y="223" width="144" height="100"/>
+                                        <rect key="frame" x="223" y="199" width="144" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="kMK-US-IOD">
-                                        <rect key="frame" x="8" y="409" width="121" height="117"/>
+                                        <rect key="frame" x="9" y="339" width="121" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="sGq-nh-ZUl">
-                                        <rect key="frame" x="8" y="583" width="194" height="133"/>
+                                        <rect key="frame" x="12" y="500" width="194" height="167"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">I began my iOS development journey by creating a flashlight app for the iPhone 4. I called it Light Hero because it integrated an Iron Man theme and he was "bringing the light to save the day".</string>
+                                        <string key="text">I began my iOS development journey by creating a flashlight app for the iPhone 4. I called it Light Hero because it integrated an Iron Man theme and he was "bringing the light to save the day".
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="nRd-pH-xUt">
-                                        <rect key="frame" x="8" y="217" width="201" height="111"/>
+                                        <rect key="frame" x="9" y="200" width="201" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">The first time I used an iOS device was the iPhone 3GS in 2009. I was fascinated by the intuitive interface and wanted to learn more.</string>
@@ -562,23 +563,23 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="OYq-Rv-7sG">
-                                        <rect key="frame" x="233" y="583" width="134" height="128"/>
+                                        <rect key="frame" x="228" y="510" width="134" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Em0-ac-Iva">
-                                        <rect key="frame" x="166" y="758" width="201" height="128"/>
+                                        <rect key="frame" x="166" y="688" width="201" height="184"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <string key="text">In 2014 I decided to create an iPhone App called Matherobic, which helps students learn Calculus. It consisted of a quiz, important formulas and concepts. The content of the app was loaded from server side, so the quiz could be updated easily. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hLQ-qf-q1y">
-                                        <rect key="frame" x="9" y="758" width="134" height="128"/>
+                                        <rect key="frame" x="9" y="716" width="134" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="fGQ-YF-OPr">
-                                        <rect key="frame" x="166" y="409" width="194" height="117"/>
+                                        <rect key="frame" x="166" y="346" width="194" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">In 2010, I began using my first Mac - a MacBook Pro. This was the first time I had access to the tools I needed to learn and create apps.</string>
@@ -586,13 +587,68 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MsX-kd-PP0">
-                                        <rect key="frame" x="183" y="49" width="177" height="133"/>
+                                        <rect key="frame" x="175" y="25" width="185" height="133"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">The first time I wrote code was in second grade. My teacher taught us to use the Logo Programming Laguage to move a small animated turutle around the screen.</string>
+                                        <string key="text">My programming journey started in second grade when my teacher taught me the Logo Programming Language to move a small animated turtle around the screen.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IsA-2B-898">
+                                        <rect key="frame" x="12" y="898" width="175" height="217"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Shortly thereafter, I decided to create my next iOS App called Rescue Me. This app was created to help women feel safe in potentially dangerous situations by automatically sending a text message to 5 emergency contacts in a distress situation.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="phi-e0-UFl">
+                                        <rect key="frame" x="212" y="935" width="148" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="XXL-DN-Mzu">
+                                        <rect key="frame" x="185" y="1135" width="175" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">When WatchKit was finally released, I read all of the documentation and decided to make a Youtube tutorial to help people get started. Immediately my tutorial received lots of positive response and I decided to make an entire series out of it. Now I have hundreds of subscribers and tens of thousands of views. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="X2O-I4-FN4">
+                                        <rect key="frame" x="9" y="1196" width="148" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="RoR-aC-78F">
+                                        <rect key="frame" x="12" y="1413" width="200" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">WatchKit is my chance to bring my Wearable Application Development skills to iOS. Using these skills, I am now working on Apple Watch components for my two iOS Apps, and at my internship</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="zUG-gY-Vf2">
+                                        <rect key="frame" x="223" y="1424" width="137" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoWWDC.png" id="t5h-xU-V85">
+                                        <rect key="frame" x="11" y="1592" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5dd-PI-2Kb">
+                                        <rect key="frame" x="172" y="1581" width="194" height="168"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Going to WWDC will allow me to further my iOS skills, learn new technologies, meet with the people who make the technologies, network with other iOS developers, and most importantly have fun!!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I hope to see you there!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gFX-27-0MB">
+                                        <rect key="frame" x="81" y="1778" width="212" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                         </subviews>
