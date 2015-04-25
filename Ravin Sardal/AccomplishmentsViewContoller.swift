@@ -11,6 +11,8 @@ import UIKit
 
 class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource{
     
+    @IBOutlet var matherobicLabel: UILabel!
+    @IBOutlet var rescueMeLabel: UILabel!
     @IBOutlet var rescueMeAppButton: UIButton!
     @IBOutlet var matherobicAppButton: UIButton!
     var arr:NSArray = []
@@ -81,6 +83,8 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             self.rescueMeAppButton.hidden = false;
             self.matherobicAppButton.enabled = true;
             self.matherobicAppButton.hidden = false;
+            self.rescueMeLabel.alpha = 1.0
+            self.matherobicLabel.alpha = 1.0
         }else if(row == 2){
             self.hideButtonsShowText()
             self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch apps for vehicles. I am beyond excited for the opportunity to impact the lives of a plethora of drivers."
@@ -98,6 +102,8 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
     }
     func hideButtonsShowText(){
         //self.myTextView.enabled = false;
+        self.rescueMeLabel.alpha = 0.0
+        self.matherobicLabel.alpha = 0.0
         self.rescueMeAppButton.enabled = false;
         self.rescueMeAppButton.hidden = true;
         self.matherobicAppButton.enabled = false;

@@ -371,6 +371,20 @@
                                     <segue destination="dks-Hw-yyB" kind="modal" id="kRt-R8-fzX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rescue Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GYa-8O-NhI">
+                                <rect key="frame" x="62" y="327" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matherobic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ug5-8L-oAu">
+                                <rect key="frame" x="225" y="327" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -378,8 +392,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="matherobicAppButton" destination="vPa-qI-bwE" id="lo8-pV-PpA"/>
+                        <outlet property="matherobicLabel" destination="ug5-8L-oAu" id="ROx-cc-eq7"/>
                         <outlet property="myTextView" destination="IPy-qN-yhh" id="Cws-iY-UvW"/>
                         <outlet property="rescueMeAppButton" destination="0vf-JW-hlh" id="hIN-2w-puK"/>
+                        <outlet property="rescueMeLabel" destination="GYa-8O-NhI" id="c1v-8b-VLB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UjQ-h6-edZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -780,7 +796,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9f7-DO-64L"/>
+        <segue reference="kRt-R8-fzX"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>
