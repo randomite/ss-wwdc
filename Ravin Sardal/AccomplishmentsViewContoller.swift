@@ -32,6 +32,10 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         // Dispose of any resources that can be recreated.
     }
     
+    override func prefersStatusBarHidden() -> Bool {
+        return true;
+    }
+    
     @IBAction func accTestPrint(sender: AnyObject) {
         println("works")
     }

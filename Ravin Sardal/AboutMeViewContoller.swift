@@ -52,6 +52,9 @@ class AboutMeViewContoller: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prefersStatusBarHidden() -> Bool {
+        return true;
+    }
     
     func fireTimer(){
         timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "typeLetter", userInfo: nil, repeats: true)

@@ -32,6 +32,10 @@ class InterestsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true;
+    }
   
     @IBAction func codeIconInfoDisplay(sender: AnyObject) {
         if(count == 0){
