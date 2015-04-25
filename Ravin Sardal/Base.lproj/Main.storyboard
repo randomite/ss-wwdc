@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
@@ -52,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="שלום עולם" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X5z-F4-kNb">
-                                <rect key="frame" x="46" y="418" width="90" height="21"/>
+                                <rect key="frame" x="46" y="418" width="90" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,7 +115,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="हैलो वर्ल्ड" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="55Y-BT-6xV">
-                                <rect key="frame" x="60" y="37" width="57" height="21"/>
+                                <rect key="frame" x="60" y="37" width="64" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -654,6 +654,13 @@
                                     <segue destination="dks-Hw-yyB" kind="modal" id="9nB-4D-DTH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="whT-eN-YjU">
+                                <rect key="frame" x="0.0" y="95" width="375" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -663,6 +670,7 @@
                         <outlet property="codeIconButton" destination="OHb-D0-a7p" id="Ufx-uk-Bna"/>
                         <outlet property="cpuIconButton" destination="Y7h-IB-H0d" id="RZ4-MN-IWV"/>
                         <outlet property="helpLabel" destination="lER-en-5wQ" id="xzF-tI-YdO"/>
+                        <outlet property="titleLabel" destination="whT-eN-YjU" id="43J-Pd-dnb"/>
                         <outlet property="vcTextView" destination="ILD-kT-xtP" id="ndC-2i-D2d"/>
                     </connections>
                 </viewController>
@@ -699,7 +707,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9f7-DO-64L"/>
+        <segue reference="6b7-vN-1dh"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>
