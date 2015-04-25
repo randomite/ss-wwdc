@@ -47,7 +47,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75 , animations: {
-                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, Software is eating the world. Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousand of users."
+                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, \"Software is eating the world.\" Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousand of users."
                             self.vcTextView.alpha = 1.0;
                             self.titleLabel.text = "Software"
                             self.titleLabel.alpha = 1.0
