@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -11,25 +11,104 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Ravin_Sardal_WatchKit_App" customModuleProvider="target">
                     <items>
                         <button width="1" alignment="left" title="About Me" id="6Qa-f4-JYH">
+                            <color key="titleColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" title="About Me"/>
+                            <connections>
+                                <segue destination="g8W-qJ-xdu" kind="modal" id="Q0b-FT-nAZ"/>
+                            </connections>
                         </button>
                         <button width="1" alignment="left" title="Accomplishments" id="KL2-bR-g9a">
+                            <color key="titleColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" title="Interests"/>
+                            <connections>
+                                <segue destination="Xgm-kr-we6" kind="modal" id="Ng2-nf-NGa"/>
+                            </connections>
                         </button>
                         <button width="1" alignment="left" title="Interests" id="thP-Vx-683">
+                            <color key="titleColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" title="Accomplishments"/>
+                            <connections>
+                                <segue destination="Xfv-zZ-7oh" kind="modal" id="VAH-l6-cAf"/>
+                            </connections>
                         </button>
                         <button width="1" alignment="left" title="Why WWDC" id="8eg-fG-MfF">
+                            <color key="titleColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" title="Why WWDC"/>
+                            <connections>
+                                <segue destination="qkU-ZD-Qun" kind="modal" id="1yi-Q0-NLb"/>
+                            </connections>
                         </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="226.66666666666669" y="261.97435897435901"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Lj0-TK-F04">
+            <objects>
+                <controller id="Xgm-kr-we6">
+                    <items>
+                        <label width="136" alignment="left" text="Accomplishments" textAlignment="center" id="toJ-xQ-DkQ">
+                            <color key="textColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="397" y="396"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="AZM-Wf-vXb">
+            <objects>
+                <controller id="qkU-ZD-Qun">
+                    <items>
+                        <label width="136" alignment="left" text="Why WWDC" textAlignment="center" id="vsV-jO-Gu3">
+                            <color key="textColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="568" y="396"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="CZU-5s-LGZ">
+            <objects>
+                <controller id="g8W-qJ-xdu">
+                    <items>
+                        <imageView width="75" height="75" alignment="center" image="profilePic3.png" id="YxK-fV-1Aw"/>
+                        <label width="136" alignment="left" text="Ravin Sardal" textAlignment="center" id="lDO-N5-hMo">
+                            <color key="textColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="School: S.J.S.U." id="qBW-M4-0FG">
+                            <color key="textColor" red="0.0" green="1" blue="0.086479052200000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" height="25" alignment="left" text="Major: B.S.S.E" numberOfLines="2" id="sj2-aM-WNG">
+                            <color key="textColor" red="0.0" green="1" blue="0.028106128130000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" alignment="left" text="Age: 18" id="qne-Uc-Er0">
+                            <color key="textColor" red="0.0" green="1" blue="0.028106128130000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="397" y="162.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Kx8-0c-BRq">
+            <objects>
+                <controller id="Xfv-zZ-7oh">
+                    <items>
+                        <label width="136" alignment="left" text="Interests" textAlignment="center" id="drl-9U-CGr">
+                            <color key="textColor" red="0.11687379019999999" green="0.55449726040000002" blue="0.6742818813" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="578" y="160"/>
         </scene>
     </scenes>
 </document>

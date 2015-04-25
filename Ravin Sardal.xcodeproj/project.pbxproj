@@ -34,6 +34,8 @@
 		126FA4EC1AE8504900D7E948 /* circuit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F31AE5EC2B00401A6A /* circuit.jpg */; };
 		126FA4ED1AE8504900D7E948 /* circuit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F31AE5EC2B00401A6A /* circuit.jpg */; };
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
+		128241AE1AEB6E8D0044787D /* profilePic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD48F1AEA017800012C10 /* profilePic3.png */; };
+		128241AF1AEB6E8D0044787D /* profilePic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD48F1AEA017800012C10 /* profilePic3.png */; };
 		129FB9661AEA21A5007456DA /* white_icons in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9651AEA21A5007456DA /* white_icons */; };
 		129FB9761AEA21C7007456DA /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9711AEA21C7007456DA /* email.png */; };
 		129FB9771AEA21C7007456DA /* facebookWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9721AEA21C7007456DA /* facebookWhite.png */; };
@@ -460,6 +462,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128241AE1AEB6E8D0044787D /* profilePic3.png in Resources */,
 				126FA4E81AE8504100D7E948 /* coding888.jpg in Resources */,
 				126FA4E61AE8503A00D7E948 /* ggbridge.jpg in Resources */,
 				1265E2231AE848F800D1D40C /* Images.xcassets in Resources */,
@@ -473,6 +476,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128241AF1AEB6E8D0044787D /* profilePic3.png in Resources */,
 				126FA4E91AE8504200D7E948 /* coding888.jpg in Resources */,
 				126FA4E71AE8503B00D7E948 /* ggbridge.jpg in Resources */,
 				1265E22F1AE848F800D1D40C /* Interface.storyboard in Resources */,
