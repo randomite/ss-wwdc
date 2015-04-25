@@ -57,7 +57,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.wwdcLogo.alpha = 0.0
         self.HelloWWDCLabel.alpha = 0.0
         self.oneLabel.alpha = 0.0
@@ -78,7 +77,7 @@ class ViewController: UIViewController {
         self.sixteenLabel.alpha = 0.0
         self.HelloLabel.alpha = 0.0
         self.HelloLabel.enabled = false
-        self.HelloLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        self.HelloLabel.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         //self.HelloWWDCLabel.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
         
 

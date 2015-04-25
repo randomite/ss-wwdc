@@ -55,6 +55,7 @@
 		12FA2A801AEC193900A1305C /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A7F1AEC193900A1305C /* backArrow.png */; };
 		12FA2A821AEC20B500A1305C /* apple_wwdc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A811AEC20B500A1305C /* apple_wwdc2.png */; };
 		12FA2A841AEC225400A1305C /* wwdcBacking3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A831AEC225400A1305C /* wwdcBacking3.png */; };
+		12FA2A8A1AEC2C0900A1305C /* wwdcWallPaper.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A891AEC2C0900A1305C /* wwdcWallPaper.JPG */; };
 		55BF20EC1AE5EB2700401A6A /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
 		55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
 		55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EF1AE5EB3C00401A6A /* treehacks.png */; };
@@ -146,6 +147,7 @@
 		12FA2A7F1AEC193900A1305C /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow.png; sourceTree = "<group>"; };
 		12FA2A811AEC20B500A1305C /* apple_wwdc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_wwdc2.png; sourceTree = "<group>"; };
 		12FA2A831AEC225400A1305C /* wwdcBacking3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdcBacking3.png; sourceTree = "<group>"; };
+		12FA2A891AEC2C0900A1305C /* wwdcWallPaper.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wwdcWallPaper.JPG; sourceTree = "<group>"; };
 		55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ggbridge.jpg; sourceTree = "<group>"; };
 		55BF20ED1AE5EB3200401A6A /* coding888.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coding888.jpg; sourceTree = "<group>"; };
 		55BF20EF1AE5EB3C00401A6A /* treehacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehacks.png; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				12FA2A891AEC2C0900A1305C /* wwdcWallPaper.JPG */,
 				12FA2A811AEC20B500A1305C /* apple_wwdc2.png */,
 				12FA2A7F1AEC193900A1305C /* backArrow.png */,
 				12A0D6D81AEB54B000449239 /* codeIcon.png */,
@@ -433,6 +436,7 @@
 				55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */,
 				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
 				129FB9781AEA21C7007456DA /* githubWhite.png in Resources */,
+				12FA2A8A1AEC2C0900A1305C /* wwdcWallPaper.JPG in Resources */,
 				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
 				12A0D6DD1AEB54B000449239 /* stockMarketIcon.png in Resources */,
 				55BF20F61AE5ED3A00401A6A /* apple_wwdc.png in Resources */,
