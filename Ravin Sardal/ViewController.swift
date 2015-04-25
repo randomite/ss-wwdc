@@ -57,6 +57,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.sharedApplication().statusBarHidden = false
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         self.wwdcLogo.alpha = 0.0
         self.HelloWWDCLabel.alpha = 0.0
         self.oneLabel.alpha = 0.0
@@ -90,7 +92,7 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(1.5, animations: {
             self.oneLabel.alpha = 1.0
         })
-*/
+        */
         let animationDelayTime = 0.5
         
         UIView.animateWithDuration(1.5, animations:{
@@ -363,7 +365,11 @@ class ViewController: UIViewController {
         })
     }
 
-
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
