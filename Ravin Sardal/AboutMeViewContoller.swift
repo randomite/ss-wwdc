@@ -27,6 +27,7 @@ class AboutMeViewContoller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //UIApplication.sharedApplication().statusBarStyle = .LightContent
         progressBar.setProgress(0.0, animated: false)
         self.twitterButton.enabled = false
         self.linkedinButton.enabled = false
@@ -52,9 +53,11 @@ class AboutMeViewContoller: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true;
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        //UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
     }
+    
     
     func fireTimer(){
         timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "typeLetter", userInfo: nil, repeats: true)
