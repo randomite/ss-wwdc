@@ -42,7 +42,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75 , animations: {
-                            self.vcTextView.text = "Here is some software text!"
+                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, Software is eating the world. Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. (INSERT THINGS YOU HAVE DONE WITH EACH THING HERE. I WILL REPHRASE."
                             self.vcTextView.alpha = 1.0;
                         })
                     }
@@ -69,7 +69,7 @@ class InterestsViewController: UIViewController {
                 },completion:{ finished in
                     if(finished){
                         UIView.animateWithDuration(0.75, animations: {
-                            self.vcTextView.text = "Here is some other interests text!"
+                            self.vcTextView.text = ""
                             self.vcTextView.alpha = 1.0;
                         })
                     }
@@ -97,7 +97,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75, animations: {
-                            self.vcTextView.text = "Here is some hardware text!"
+                            self.vcTextView.text = "Software is nothing without hardware. I beleive it is imperative for hardware to run optimally and effectively with software. In order to delve in to this interest, I tinker with Raspberry Pi, Arduino, as well as my own circuitry. I love creating intuitive software around these hardware projects to help make something better. One example of this is (INSERT RASPBERRY PI GARAGE DOOR EXAMPLE HERE)"
                             self.vcTextView.alpha = 1.0
                         })
                     }
