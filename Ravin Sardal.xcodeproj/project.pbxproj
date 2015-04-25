@@ -40,6 +40,9 @@
 		129FB9781AEA21C7007456DA /* githubWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9731AEA21C7007456DA /* githubWhite.png */; };
 		129FB9791AEA21C7007456DA /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9741AEA21C7007456DA /* linkedin.png */; };
 		129FB97A1AEA21C7007456DA /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9751AEA21C7007456DA /* twitter.png */; };
+		12A0D6DB1AEB54B000449239 /* codeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A0D6D81AEB54B000449239 /* codeIcon.png */; };
+		12A0D6DC1AEB54B000449239 /* cpuChipIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A0D6D91AEB54B000449239 /* cpuChipIcon.png */; };
+		12A0D6DD1AEB54B000449239 /* stockMarketIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A0D6DA1AEB54B000449239 /* stockMarketIcon.png */; };
 		12A12FB91AE8CE3E00D926CE /* profilePicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A12FB81AE8CE3E00D926CE /* profilePicture.png */; };
 		12A735CF1AE4C4F400BF0AE6 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */; };
 		12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12AF09B01AE6179E0054A50E /* backing.jpeg */; };
@@ -125,6 +128,9 @@
 		129FB9731AEA21C7007456DA /* githubWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = githubWhite.png; path = white_icons/githubWhite.png; sourceTree = "<group>"; };
 		129FB9741AEA21C7007456DA /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linkedin.png; path = white_icons/linkedin.png; sourceTree = "<group>"; };
 		129FB9751AEA21C7007456DA /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = white_icons/twitter.png; sourceTree = "<group>"; };
+		12A0D6D81AEB54B000449239 /* codeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codeIcon.png; sourceTree = "<group>"; };
+		12A0D6D91AEB54B000449239 /* cpuChipIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpuChipIcon.png; sourceTree = "<group>"; };
+		12A0D6DA1AEB54B000449239 /* stockMarketIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stockMarketIcon.png; sourceTree = "<group>"; };
 		12A12FB81AE8CE3E00D926CE /* profilePicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePicture.png; sourceTree = "<group>"; };
 		12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
 		12AF09B01AE6179E0054A50E /* backing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backing.jpeg; sourceTree = "<group>"; };
@@ -198,6 +204,9 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				12A0D6D81AEB54B000449239 /* codeIcon.png */,
+				12A0D6D91AEB54B000449239 /* cpuChipIcon.png */,
+				12A0D6DA1AEB54B000449239 /* stockMarketIcon.png */,
 				129FB9711AEA21C7007456DA /* email.png */,
 				129FB9721AEA21C7007456DA /* facebookWhite.png */,
 				129FB9731AEA21C7007456DA /* githubWhite.png */,
@@ -414,6 +423,7 @@
 				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
 				129FB9781AEA21C7007456DA /* githubWhite.png in Resources */,
 				1228FF311ADF902800463FF4 /* Main.storyboard in Resources */,
+				12A0D6DD1AEB54B000449239 /* stockMarketIcon.png in Resources */,
 				55BF20F61AE5ED3A00401A6A /* apple_wwdc.png in Resources */,
 				1228FF361ADF902800463FF4 /* LaunchScreen.xib in Resources */,
 				12DFD4901AEA017800012C10 /* profilePic3.png in Resources */,
@@ -422,6 +432,7 @@
 				129FB97A1AEA21C7007456DA /* twitter.png in Resources */,
 				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
 				55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */,
+				12A0D6DB1AEB54B000449239 /* codeIcon.png in Resources */,
 				129FB9761AEA21C7007456DA /* email.png in Resources */,
 				129FB9661AEA21A5007456DA /* white_icons in Resources */,
 				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
@@ -430,6 +441,7 @@
 				55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */,
 				12AF09B11AE6179E0054A50E /* backing.jpeg in Resources */,
 				12DFD4921AEA01CA00012C10 /* blueBacking.jpeg in Resources */,
+				12A0D6DC1AEB54B000449239 /* cpuChipIcon.png in Resources */,
 				55BF20F21AE5EB4300401A6A /* WWDC-2015.jpg in Resources */,
 				1258CBD71AE8C09C009CB3AD /* rescueMINH_image2.png in Resources */,
 				55BF20EC1AE5EB2700401A6A /* ggbridge.jpg in Resources */,
