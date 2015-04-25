@@ -16,8 +16,9 @@ class ConferenceViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.scoller.userInteractionEnabled = true;
-        self.scoller.contentSize = CGSizeMake(375, 400)
+        self.scoller.contentSize = CGSizeMake(375, 4000)
         UIApplication.sharedApplication().statusBarHidden = true
+        self.scoller.flashScrollIndicators()
     }
     
     override func didReceiveMemoryWarning() {
