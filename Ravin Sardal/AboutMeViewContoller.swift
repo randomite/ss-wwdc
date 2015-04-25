@@ -83,7 +83,7 @@ class AboutMeViewContoller: UIViewController {
                         self.myDescriptionTextView.alpha = 0.0
                         },completion:{ finished in
                             if finished{
-                                UIView.animateWithDuration(9.0, animations: {
+                                UIView.animateWithDuration(10.0, animations: {
                                     self.myDescriptionTextView.text = "This summer I will be interning at Ford Motor Company in the iOS Developement division and will be working on Apple Watch apps for cars."
                                     self.progressBar.setProgress(0.5, animated: true)
                                     self.myDescriptionTextView.alpha = 1.0
