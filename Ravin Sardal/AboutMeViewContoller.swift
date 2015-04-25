@@ -94,7 +94,7 @@ class AboutMeViewContoller: UIViewController {
                                                 },completion:{ finished in
                                                     if finished{
                                                         UIView.animateWithDuration(9.0, animations: {
-                                                            self.myDescriptionTextView.text = "I am familar with the following languages and frameworks:\n\niOS (Objective-C and Swift)\nNode.JS\nJava\nC/C++"
+                                                            self.myDescriptionTextView.text = "Skills:\n\niOS (Objective-C and Swift)\nNode.JS\nJava\nC/C++"
                                                             self.progressBar.setProgress(0.75, animated: true)
                                                             self.myDescriptionTextView.alpha = 1.0
                                                             },completion:{ finished in
