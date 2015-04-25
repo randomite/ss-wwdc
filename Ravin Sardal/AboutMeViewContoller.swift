@@ -27,7 +27,8 @@ class AboutMeViewContoller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //UIApplication.sharedApplication().statusBarStyle = .LightContent
+        UIApplication.sharedApplication().statusBarHidden = false
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         progressBar.setProgress(0.0, animated: false)
         self.twitterButton.enabled = false
         self.linkedinButton.enabled = false
@@ -55,7 +56,7 @@ class AboutMeViewContoller: UIViewController {
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        //UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
     }
     
     

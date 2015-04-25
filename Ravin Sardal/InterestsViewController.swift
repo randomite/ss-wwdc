@@ -25,16 +25,13 @@ class InterestsViewController: UIViewController {
         super.viewDidLoad()
         self.vcTextView.alpha = 0.0;
         self.helpLabel.text = "Click Any Icon!!";
+        UIApplication.sharedApplication().statusBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func prefersStatusBarHidden() -> Bool {
-        return true;
     }
   
     @IBAction func codeIconInfoDisplay(sender: AnyObject) {

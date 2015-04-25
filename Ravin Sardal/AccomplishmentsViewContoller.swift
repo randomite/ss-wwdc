@@ -19,6 +19,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
     @IBOutlet var myTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.sharedApplication().statusBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
         arr = ["FBLA", "Apple Apps", "Summer Internship", "PebbleApps","Apple WatchKit Tutorials", "Hackathons"]
         
@@ -32,9 +33,11 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         // Dispose of any resources that can be recreated.
     }
     
+    /*
     override func prefersStatusBarHidden() -> Bool {
         return true;
     }
+    */
     
     @IBAction func accTestPrint(sender: AnyObject) {
         println("works")

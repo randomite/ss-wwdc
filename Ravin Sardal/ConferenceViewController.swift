@@ -17,6 +17,7 @@ class ConferenceViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.scoller.userInteractionEnabled = true;
         self.scoller.contentSize = CGSizeMake(375, 400)
+        UIApplication.sharedApplication().statusBarHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -24,8 +25,5 @@ class ConferenceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true;
-    }
     
 }
