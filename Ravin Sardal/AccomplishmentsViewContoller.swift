@@ -91,7 +91,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //fbla
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "Last year in Homestead Highschool I was part of a club called Future Business Leaders of America. I choose to take part in technology-related commpetitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
+            self.myTextView.text = "Last year in Homestead Highschool, I was part of the Future Business Leaders of America club. I chose to take part in technology-related competitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
         }else if(row == 2){
             //apple apps
             self.openYoutubeChannelButton.alpha = 0.0
