@@ -69,6 +69,11 @@
 		55BF20F21AE5EB4300401A6A /* WWDC-2015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F11AE5EB4300401A6A /* WWDC-2015.jpg */; };
 		55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F31AE5EC2B00401A6A /* circuit.jpg */; };
 		55BF20F61AE5ED3A00401A6A /* apple_wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20F51AE5ED3A00401A6A /* apple_wwdc.png */; };
+		55C9A5A31AEC93610037EE54 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A59E1AEC93610037EE54 /* icon58.png */; };
+		55C9A5A41AEC93610037EE54 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A59F1AEC93610037EE54 /* icon80.png */; };
+		55C9A5A51AEC93610037EE54 /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A5A01AEC93610037EE54 /* icon87.png */; };
+		55C9A5A61AEC93610037EE54 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A5A11AEC93610037EE54 /* icon120.png */; };
+		55C9A5A71AEC93610037EE54 /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A5A21AEC93610037EE54 /* icon180.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +173,11 @@
 		55BF20F11AE5EB4300401A6A /* WWDC-2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WWDC-2015.jpg"; sourceTree = "<group>"; };
 		55BF20F31AE5EC2B00401A6A /* circuit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = circuit.jpg; sourceTree = "<group>"; };
 		55BF20F51AE5ED3A00401A6A /* apple_wwdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_wwdc.png; sourceTree = "<group>"; };
+		55C9A59E1AEC93610037EE54 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		55C9A59F1AEC93610037EE54 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		55C9A5A01AEC93610037EE54 /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		55C9A5A11AEC93610037EE54 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		55C9A5A21AEC93610037EE54 /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +256,11 @@
 				129FB9731AEA21C7007456DA /* githubWhite.png */,
 				129FB9741AEA21C7007456DA /* linkedin.png */,
 				129FB9751AEA21C7007456DA /* twitter.png */,
+				55C9A59E1AEC93610037EE54 /* icon58.png */,
+				55C9A59F1AEC93610037EE54 /* icon80.png */,
+				55C9A5A01AEC93610037EE54 /* icon87.png */,
+				55C9A5A11AEC93610037EE54 /* icon120.png */,
+				55C9A5A21AEC93610037EE54 /* icon180.png */,
 				129FB9651AEA21A5007456DA /* white_icons */,
 				12DFD4911AEA01CA00012C10 /* blueBacking.jpeg */,
 				12FA2A831AEC225400A1305C /* wwdcBacking3.png */,
@@ -456,6 +471,7 @@
 			files = (
 				55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */,
 				127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */,
+				55C9A5A71AEC93610037EE54 /* icon180.png in Resources */,
 				129FB9781AEA21C7007456DA /* githubWhite.png in Resources */,
 				12FA2A8A1AEC2C0900A1305C /* wwdcWallPaper.JPG in Resources */,
 				12FA2A961AEC62DE00A1305C /* YouTubeSquareLogo.png in Resources */,
@@ -471,16 +487,20 @@
 				1228FF331ADF902800463FF4 /* Images.xcassets in Resources */,
 				12FA2A821AEC20B500A1305C /* apple_wwdc2.png in Resources */,
 				55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */,
+				55C9A5A31AEC93610037EE54 /* icon58.png in Resources */,
 				12A0D6DB1AEB54B000449239 /* codeIcon.png in Resources */,
 				129FB9761AEA21C7007456DA /* email.png in Resources */,
 				129FB9661AEA21A5007456DA /* white_icons in Resources */,
+				55C9A5A61AEC93610037EE54 /* icon120.png in Resources */,
 				12FA2A911AEC62DE00A1305C /* iphone3gs.jpeg in Resources */,
 				12FA2A801AEC193900A1305C /* backArrow.png in Resources */,
 				12FA2A921AEC62DE00A1305C /* lightHero.png in Resources */,
 				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
 				12FA2A931AEC62DE00A1305C /* logo.png in Resources */,
+				55C9A5A41AEC93610037EE54 /* icon80.png in Resources */,
 				1258CBD81AE8C09C009CB3AD /* matherobic_image2.png in Resources */,
 				12FA2A841AEC225400A1305C /* wwdcBacking3.png in Resources */,
+				55C9A5A51AEC93610037EE54 /* icon87.png in Resources */,
 				12FA2A951AEC62DE00A1305C /* watchkit.png in Resources */,
 				1207BDAB1AE9D20900C937BA /* profilePictureBlurred.png in Resources */,
 				55BF20F41AE5EC2B00401A6A /* circuit.jpg in Resources */,
