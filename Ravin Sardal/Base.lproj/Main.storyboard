@@ -196,7 +196,7 @@
         <!--Title-->
         <scene sceneID="fXT-YJ-mNQ">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="dks-Hw-yyB" customClass="ProfileViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="dks-Hw-yyB" customClass="ProfileViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYX-ks-zud">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -488,7 +488,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XLM-eu-1rH">
-                                <rect key="frame" x="9" y="27" width="35" height="35"/>
+                                <rect key="frame" x="0.0" y="20" width="52" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="backArrow.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -569,11 +569,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Em0-ac-Iva">
-                                        <rect key="frame" x="166" y="688" width="201" height="184"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Em0-ac-Iva">
+                                        <rect key="frame" x="166" y="688" width="201" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">In 2014 I decided to create an iPhone App called Matherobic, which helps students learn Calculus. It consisted of a quiz, important formulas and concepts. The content of the app was loaded from server side, so the quiz could be updated easily. </string>
+                                        <string key="text">In 2014 I decided to create an iPhone App called Matherobic, which helps students learn Calculus. It consisted of a quiz, important formulas and concepts. The content of the app was loaded from server side, so the quiz could be updated easily. Over 200 users.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -589,7 +589,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MsX-kd-PP0">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="MsX-kd-PP0">
                                         <rect key="frame" x="175" y="25" width="185" height="133"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -597,11 +597,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IsA-2B-898">
-                                        <rect key="frame" x="12" y="898" width="175" height="217"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="IsA-2B-898">
+                                        <rect key="frame" x="12" y="896" width="179" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Shortly thereafter, I decided to create my next iOS App called Rescue Me. This app was created to help women feel safe in potentially dangerous situations by automatically sending a text message to 5 emergency contacts in a distress situation.</string>
+                                        <string key="text">Shortly thereafter, I decided to create my next iOS App called Rescue Me. This app was created to help women feel safe in potentially dangerous situations by automatically sending a text message to 5 emergency contacts in a distress situation. Over 1000 users.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -609,7 +609,7 @@
                                         <rect key="frame" x="212" y="935" width="148" height="143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="XXL-DN-Mzu">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="XXL-DN-Mzu">
                                         <rect key="frame" x="185" y="1135" width="175" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -617,7 +617,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="RoR-aC-78F">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="RoR-aC-78F">
                                         <rect key="frame" x="12" y="1413" width="200" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -633,7 +633,7 @@
                                         <rect key="frame" x="11" y="1592" width="145" height="145"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5dd-PI-2Kb">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="5dd-PI-2Kb">
                                         <rect key="frame" x="172" y="1581" width="194" height="168"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -650,18 +650,12 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DWh-OX-3x4">
-                                        <rect key="frame" x="25" y="1197" width="125" height="125"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="YouTubeSquareLogo.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="youtubeButtonAction:" destination="Gw7-hd-CyY" eventType="touchUpInside" id="AQ8-1F-ewG"/>
-                                        </connections>
-                                    </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightHero.png" id="OYq-Rv-7sG">
                                         <rect key="frame" x="180" y="495" width="182" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouTubeSquareLogo.png" id="uqR-sP-r09">
+                                        <rect key="frame" x="21" y="1197" width="125" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -672,7 +666,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="scoller" destination="WnP-bm-FJ1" id="JS3-DT-nWT"/>
-                        <outlet property="youtubeButton" destination="DWh-OX-3x4" id="wIW-YT-Dzd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zs5-rA-0A6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -817,7 +810,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9nB-4D-DTH"/>
+        <segue reference="9f7-DO-64L"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>
