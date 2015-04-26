@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var alert = UIAlertController(title: "Please use an iPhone 6", message: "Use an iPhone 6 for best viewing experience", preferredStyle: UIAlertControllerStyle.Alert)
+    var alert = UIAlertController(title: "Please use an iPhone 6", message: "Use an iPhone 6 (simulator or physical) for the best viewing experience", preferredStyle: UIAlertControllerStyle.Alert)
     
     let delayTime = dispatch_time(DISPATCH_TIME_NOW,
         Int64(1 * Double(NSEC_PER_SEC)))
@@ -320,7 +320,7 @@ class ViewController: UIViewController {
         if(modelNameString != "iPhone 6"){
             //self.presentViewController(alert, animated: true, completion: nil)
             //alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.Default, handler: nil))
-            alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: { action in
+            alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { action in
                 switch action.style{
                 case .Default:
                     println("default")
