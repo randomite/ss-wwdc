@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -58,7 +58,7 @@
                             <variation key="device=watch42mm" width="156"/>
                         </label>
                         <label width="136" height="30" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
-                            <variation key="device=watch42mm" width="156"/>
+                            <variation key="device=watch42mm" height="27" width="156"/>
                         </label>
                         <label width="136" height="30" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
                             <variation key="device=watch42mm" width="156"/>
@@ -69,7 +69,7 @@
                         </label>
                         <label width="136" height="52" alignment="left" text="Summer iOS Internship" textAlignment="center" numberOfLines="2" id="N97-wb-JY7">
                             <fontDescription key="font" type="system" pointSize="16"/>
-                            <variation key="device=watch42mm" height="45" width="156"/>
+                            <variation key="device=watch42mm" height="39" width="156"/>
                         </label>
                         <label width="136" height="30" alignment="left" text="Hackathons" textAlignment="center" id="XFw-kb-ynz">
                             <fontDescription key="font" type="system" pointSize="18"/>
@@ -78,7 +78,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="408" y="452"/>
+            <point key="canvasLocation" x="407.12820512820514" y="447.23076923076928"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="AZM-Wf-vXb">
@@ -93,12 +93,13 @@
                         <label width="136" height="195" alignment="left" textAlignment="center" numberOfLines="13" id="GrP-y5-Qys">
                             <string key="text">Going to WWDC will allow me to further my iOS skills, learn new technologies, meet with the people who make the technologies, network with other iOS developers, and most importantly have fun!!</string>
                             <fontDescription key="font" type="system" pointSize="13"/>
-                            <variation key="device=watch42mm" width="156"/>
+                            <variation key="device=watch38mm" height="185"/>
+                            <variation key="device=watch42mm" height="158" width="156"/>
                         </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="729.69230769230774" y="327.35897435897436"/>
+            <point key="canvasLocation" x="728.82051282051282" y="305.12820512820514"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="CZU-5s-LGZ">
@@ -146,6 +147,7 @@
                         </label>
                         <label width="136" height="58" alignment="left" text="iOS/WatchKit Apps, Pebble Watch Apps, Full-Stack Web Apps" textAlignment="center" numberOfLines="3" id="AGM-hf-V2k">
                             <fontDescription key="font" type="system" pointSize="14"/>
+                            <variation key="device=watch38mm" height="56"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
                         <label width="136" alignment="left" text="Hardware" textAlignment="center" id="5Fu-wG-48Z">
@@ -153,19 +155,22 @@
                             <variation key="device=watch42mm" width="156"/>
                         </label>
                         <label width="136" height="76" alignment="left" text="Arduino, RaspberryPi, Circuits" textAlignment="center" numberOfLines="3" id="c3O-8d-SS9">
-                            <variation key="device=watch42mm" width="156"/>
+                            <variation key="device=watch38mm" height="64"/>
+                            <variation key="device=watch42mm" height="47" width="156"/>
                         </label>
-                        <label width="136" alignment="left" text="Business" textAlignment="center" id="T3y-uR-W7G">
+                        <label width="136" height="100" alignment="left" text="Business" textAlignment="center" id="T3y-uR-W7G">
                             <color key="textColor" red="0.0" green="1" blue="0.028106128130000001" alpha="1" colorSpace="calibratedRGB"/>
-                            <variation key="device=watch42mm" width="156"/>
+                            <variation key="device=watch38mm" height="27"/>
+                            <variation key="device=watch42mm" height="23" width="156"/>
                         </label>
                         <label width="136" height="61" alignment="left" text="Stocks, FBLA, Entrepreneurship" textAlignment="center" numberOfLines="2" id="Qgm-0C-ORC">
-                            <variation key="device=watch42mm" width="156"/>
+                            <variation key="device=watch38mm" height="45"/>
+                            <variation key="device=watch42mm" height="41" width="156"/>
                         </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="578" y="227.10256410256412"/>
+            <point key="canvasLocation" x="578" y="159.97435897435898"/>
         </scene>
     </scenes>
 </document>
