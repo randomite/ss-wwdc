@@ -11,6 +11,7 @@ import UIKit
 
 class ConferenceViewController: UIViewController {
     
+    @IBOutlet var youtubeButton: UIButton!
     @IBOutlet var scoller: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,9 @@ class ConferenceViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func youtubeButtonAction(sender: AnyObject) {
     }
     
     

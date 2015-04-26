@@ -17,6 +17,7 @@ class InterestsViewController: UIViewController {
     @IBOutlet var cpuIconButton: UIButton!
     @IBOutlet var helpLabel: UILabel!
     @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var secondHelpLabel: UILabel!
     
     var goToX = 112
     var goToY = 362
@@ -28,6 +29,7 @@ class InterestsViewController: UIViewController {
         self.titleLabel.alpha = 0.0;
         self.titleLabel.text = "";
         self.helpLabel.text = "Tap any Icon";
+        secondHelpLabel.alpha = 0.0
         UIApplication.sharedApplication().statusBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -52,6 +54,7 @@ class InterestsViewController: UIViewController {
                             self.titleLabel.text = "Software"
                             self.titleLabel.alpha = 1.0
                             self.helpLabel.text = "Tap Icon to Dismiss"
+                            self.secondHelpLabel.alpha = 1.0
                         })
                     }
             })
@@ -60,6 +63,7 @@ class InterestsViewController: UIViewController {
             count = 0
             UIView.animateWithDuration(1.5, animations: {
                 self.titleLabel.alpha = 0.0
+                self.secondHelpLabel.alpha = 0.0
                 self.vcTextView.alpha = 0.0
                 self.businessIconButton.alpha = 1.0
                 self.cpuIconButton.alpha = 1.0
@@ -84,6 +88,7 @@ class InterestsViewController: UIViewController {
                             self.titleLabel.text = "Business"
                             self.titleLabel.alpha = 1.0
                             self.helpLabel.text = "Tap Icon to Dismiss"
+                            self.secondHelpLabel.alpha = 1.0
                         })
                     }
             })
@@ -91,6 +96,7 @@ class InterestsViewController: UIViewController {
         }else if(count == 1){
             count = 0
             UIView.animateWithDuration(1.5, animations: {
+                self.secondHelpLabel.alpha = 0.0
                 self.titleLabel.alpha = 0.0
                 self.vcTextView.alpha = 0.0
                 self.codeIconButton.alpha = 1.0
@@ -117,6 +123,7 @@ class InterestsViewController: UIViewController {
                             self.titleLabel.text = "Hardware"
                             self.titleLabel.alpha = 1.0
                             self.helpLabel.text = "Tap Icon to Dismiss"
+                            self.secondHelpLabel.alpha = 1.0
                         })
                     }
             })
@@ -124,6 +131,7 @@ class InterestsViewController: UIViewController {
         }else if(count == 1){
             count = 0
             UIView.animateWithDuration(1.5, animations: {
+                self.secondHelpLabel.alpha = 0.0
                 self.titleLabel.alpha = 0.0
                 self.vcTextView.alpha = 0.0
                 self.codeIconButton.alpha = 1.0

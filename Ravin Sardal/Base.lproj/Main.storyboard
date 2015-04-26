@@ -549,27 +549,18 @@
                                 <rect key="frame" x="0.0" y="50" width="375" height="1814"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Wod-zq-DLo">
-                                        <rect key="frame" x="8" y="36" width="137" height="111"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="Wod-zq-DLo">
+                                        <rect key="frame" x="8" y="52" width="159" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="dQL-iR-Cs9">
-                                        <rect key="frame" x="223" y="199" width="144" height="100"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone3gs.jpeg" id="dQL-iR-Cs9">
+                                        <rect key="frame" x="223" y="179" width="144" height="139"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="kMK-US-IOD">
-                                        <rect key="frame" x="9" y="339" width="121" height="117"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mbp13.jpg" id="kMK-US-IOD">
+                                        <rect key="frame" x="11" y="355" width="134" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="sGq-nh-ZUl">
-                                        <rect key="frame" x="12" y="500" width="194" height="167"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">I began my iOS development journey by creating a flashlight app for the iPhone 4. I called it Light Hero because it integrated an Iron Man theme and he was "bringing the light to save the day".
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="nRd-pH-xUt">
                                         <rect key="frame" x="9" y="200" width="201" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -578,10 +569,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="OYq-Rv-7sG">
-                                        <rect key="frame" x="228" y="510" width="134" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Em0-ac-Iva">
                                         <rect key="frame" x="166" y="688" width="201" height="184"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -590,7 +577,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hLQ-qf-q1y">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matherobic_image2.png" id="hLQ-qf-q1y">
                                         <rect key="frame" x="9" y="716" width="134" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -618,7 +605,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="phi-e0-UFl">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rescueMINH_image2.png" id="phi-e0-UFl">
                                         <rect key="frame" x="212" y="935" width="148" height="143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -630,10 +617,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="X2O-I4-FN4">
-                                        <rect key="frame" x="9" y="1196" width="148" height="143"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="RoR-aC-78F">
                                         <rect key="frame" x="12" y="1413" width="200" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -642,7 +625,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="zUG-gY-Vf2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watchkit.png" id="zUG-gY-Vf2">
                                         <rect key="frame" x="223" y="1424" width="137" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -658,6 +641,29 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="sGq-nh-ZUl">
+                                        <rect key="frame" x="12" y="485" width="160" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">I began my iOS development journey by creating a flashlight app for the iPhone 4. I called it Light Hero because it integrated an Iron Man theme and he was "bringing the light to save the day".
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DWh-OX-3x4">
+                                        <rect key="frame" x="25" y="1197" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="YouTubeSquareLogo.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="youtubeButtonAction:" destination="Gw7-hd-CyY" eventType="touchUpInside" id="AQ8-1F-ewG"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightHero.png" id="OYq-Rv-7sG">
+                                        <rect key="frame" x="180" y="495" width="182" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -666,6 +672,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="scoller" destination="WnP-bm-FJ1" id="JS3-DT-nWT"/>
+                        <outlet property="youtubeButton" destination="DWh-OX-3x4" id="wIW-YT-Dzd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zs5-rA-0A6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -726,8 +733,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click Any Icon!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lER-en-5wQ">
-                                <rect key="frame" x="16" y="585" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap any Icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lER-en-5wQ">
+                                <rect key="frame" x="-19" y="584" width="412" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -750,6 +757,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Text for More Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LxQ-6Q-q0i">
+                                <rect key="frame" x="16" y="616" width="343" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -759,6 +773,7 @@
                         <outlet property="codeIconButton" destination="OHb-D0-a7p" id="Ufx-uk-Bna"/>
                         <outlet property="cpuIconButton" destination="Y7h-IB-H0d" id="RZ4-MN-IWV"/>
                         <outlet property="helpLabel" destination="lER-en-5wQ" id="xzF-tI-YdO"/>
+                        <outlet property="secondHelpLabel" destination="LxQ-6Q-q0i" id="7Me-rF-KiY"/>
                         <outlet property="titleLabel" destination="whT-eN-YjU" id="43J-Pd-dnb"/>
                         <outlet property="vcTextView" destination="ILD-kT-xtP" id="ndC-2i-D2d"/>
                     </connections>
@@ -769,6 +784,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="YouTubeSquareLogo.png" width="370" height="370"/>
         <image name="backArrow.png" width="512" height="512"/>
         <image name="backing5.jpg" width="325" height="576"/>
         <image name="blueBacking.jpeg" width="169" height="299"/>
@@ -780,13 +796,18 @@
         <image name="facebookWhite.png" width="256" height="254"/>
         <image name="ggbridge.jpg" width="1444" height="800"/>
         <image name="githubWhite.png" width="418" height="417"/>
+        <image name="iphone3gs.jpeg" width="225" height="225"/>
+        <image name="lightHero.png" width="1280" height="800"/>
         <image name="linkedin.png" width="256" height="256"/>
+        <image name="logo.png" width="240" height="106"/>
         <image name="logoWWDC.png" width="1250" height="1250"/>
         <image name="matherobic_image2.png" width="350" height="350"/>
+        <image name="mbp13.jpg" width="606" height="391"/>
         <image name="profilePic3.png" width="586" height="571"/>
         <image name="rescueMINH_image2.png" width="350" height="350"/>
         <image name="stockMarketIcon.png" width="512" height="511"/>
         <image name="twitter.png" width="212" height="209"/>
+        <image name="watchkit.png" width="256" height="256"/>
         <image name="wwdcBacking3.png" width="2524" height="2524"/>
         <image name="wwdcWallPaper.JPG" width="750" height="1331"/>
     </resources>
@@ -796,7 +817,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kRt-R8-fzX"/>
+        <segue reference="9nB-4D-DTH"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>
