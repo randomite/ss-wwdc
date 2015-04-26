@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -57,28 +57,28 @@
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
+                        <label width="136" height="36" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
+                        <label width="136" height="35" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" alignment="left" text="Watch-Kit Tutorials" textAlignment="center" id="vvn-nc-g5X">
-                            <fontDescription key="font" type="system" pointSize="17"/>
+                        <label width="136" height="36" alignment="left" text="Watch-Kit Tutorials" textAlignment="center" id="vvn-nc-g5X">
+                            <fontDescription key="font" type="system" pointSize="15"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="100" alignment="left" text="Summer iOS Internship" textAlignment="center" numberOfLines="2" id="N97-wb-JY7">
+                        <label width="136" height="52" alignment="left" text="Summer iOS Internship" textAlignment="center" numberOfLines="2" id="N97-wb-JY7">
                             <fontDescription key="font" type="system" pointSize="16"/>
                             <variation key="device=watch42mm" height="45" width="156"/>
                         </label>
-                        <label width="136" height="100" alignment="left" text="Hackathons" textAlignment="center" id="XFw-kb-ynz">
+                        <label width="136" height="40" alignment="left" text="Hackathons" textAlignment="center" id="XFw-kb-ynz">
                             <fontDescription key="font" type="system" pointSize="18"/>
                             <variation key="device=watch42mm" height="24" width="156"/>
                         </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="408" y="491.5"/>
+            <point key="canvasLocation" x="408" y="460.5"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="AZM-Wf-vXb">
