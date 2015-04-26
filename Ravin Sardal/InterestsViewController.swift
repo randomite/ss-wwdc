@@ -49,7 +49,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75 , animations: {
-                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, \"Software is eating the world.\" Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousand of users."
+                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, \"Software is eating the world.\" Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousands of users."
                             self.vcTextView.alpha = 1.0;
                             self.titleLabel.text = "Software"
                             self.titleLabel.alpha = 1.0
@@ -118,7 +118,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75, animations: {
-                            self.vcTextView.text = "Software is nothing without hardware and I beleive it is imperative for hardware to run optimally and effectively with software. In order to delve in to this interest, I tinker with Raspberry Pi, Arduino, as well as my own circuitry. I love creating intuitive software around these hardware projects to help make something better. One example of this is my home automation project in which I connected a Raspberry Pi and Sparkcore to my garage door. To connect hardware to software, I made an iOS and Pebble Watch app to open and close the door as well."
+                            self.vcTextView.text = "Software is nothing without hardware and I beleive it is imperative for hardware to run optimally and effectively with software. In order to venture in to this interest, I tinker with Raspberry Pi, Arduino, as well as my own circuitry. I love creating intuitive software around these hardware projects to help make something better. One example of this is my home automation project in which I connected a Raspberry Pi and Sparkcore to my garage door. To connect the hardware to software, I made an iOS and Pebble Watch app to open and close the door as well."
                             self.vcTextView.alpha = 1.0
                             self.titleLabel.text = "Hardware"
                             self.titleLabel.alpha = 1.0
