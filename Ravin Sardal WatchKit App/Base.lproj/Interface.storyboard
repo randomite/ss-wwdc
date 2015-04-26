@@ -57,13 +57,13 @@
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="36" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
+                        <label width="136" height="31" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="35" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
+                        <label width="136" height="29" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="36" alignment="left" text="Watch-Kit Tutorials" textAlignment="center" id="vvn-nc-g5X">
+                        <label width="136" height="30" alignment="left" text="Watch-Kit Tutorials" textAlignment="center" id="vvn-nc-g5X">
                             <fontDescription key="font" type="system" pointSize="15"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
@@ -78,7 +78,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="408" y="460.5"/>
+            <point key="canvasLocation" x="408" y="452"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="AZM-Wf-vXb">
