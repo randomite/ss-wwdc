@@ -679,7 +679,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone3gs.jpeg" id="dQL-iR-Cs9">
-                                        <rect key="frame" x="222" y="179" width="144" height="139"/>
+                                        <rect key="frame" x="212" y="179" width="144" height="139"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
