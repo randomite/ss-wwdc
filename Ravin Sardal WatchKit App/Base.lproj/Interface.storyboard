@@ -57,10 +57,10 @@
                             <fontDescription key="font" type="system" pointSize="14"/>
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="31" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
+                        <label width="136" height="30" alignment="left" text="FBLA" textAlignment="center" id="yAN-Xo-bQr">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
-                        <label width="136" height="29" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
+                        <label width="136" height="30" alignment="left" text="Apple Apps" textAlignment="center" id="6D9-wQ-Ns7">
                             <variation key="device=watch42mm" width="156"/>
                         </label>
                         <label width="136" height="30" alignment="left" text="Watch-Kit Tutorials" textAlignment="center" id="vvn-nc-g5X">
@@ -71,7 +71,7 @@
                             <fontDescription key="font" type="system" pointSize="16"/>
                             <variation key="device=watch42mm" height="45" width="156"/>
                         </label>
-                        <label width="136" height="40" alignment="left" text="Hackathons" textAlignment="center" id="XFw-kb-ynz">
+                        <label width="136" height="30" alignment="left" text="Hackathons" textAlignment="center" id="XFw-kb-ynz">
                             <fontDescription key="font" type="system" pointSize="18"/>
                             <variation key="device=watch42mm" height="24" width="156"/>
                         </label>
