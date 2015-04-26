@@ -11,6 +11,8 @@ import UIKit
 
 class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource{
     
+    @IBOutlet var watchKitLabTestView: UITextView!
+    @IBOutlet var watckKitLabImage: UIImageView!
     @IBOutlet var matherobicLabel: UILabel!
     @IBOutlet var rescueMeLabel: UILabel!
     @IBOutlet var rescueMeAppButton: UIButton!
@@ -23,10 +25,12 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         super.viewDidLoad()
         UIApplication.sharedApplication().statusBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
-        arr = ["FBLA", "Apple Apps", "Summer Internship", "Pebble Apps","Apple WatchKit Tutorials", "Hackathons"]
+        arr = ["Apple Watch Preview","Apple Apps", "Summer Internship", "Pebble Apps","Apple WatchKit Tutorials","Future Business Leaders of America", "Hackathons"]
         
-        self.myTextView.text = "While attending Homestead High School, I participated in technology competitions with the Future Business Leaders of America club. I placed first in the Database Design and Applications event at the California state competition and went on to the National competition."
         self.hideButtonsShowText()
+        self.myTextView.hidden = true
+        self.watckKitLabImage.alpha = 1.0
+        self.watchKitLabTestView.alpha = 1.0
         
     }
     
@@ -76,8 +80,15 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         
         if(row == 0){
             self.hideButtonsShowText()
+            self.myTextView.hidden = true
+            self.watchKitLabTestView.alpha = 1.0
+            self.watckKitLabImage.alpha = 1.0
+        }else if(row == 5){
+            self.hideButtonsShowText()
             self.myTextView.text = "Last year in Homestead Highschool I was part of a club called Future Business Leaders of America. I choose to take part in technology-related commpetitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
         }else if(row == 1){
+            self.watchKitLabTestView.alpha = 0.0
+            self.watckKitLabImage.alpha = 0.0
             self.myTextView.hidden = true;
             self.rescueMeAppButton.enabled = true;
             self.rescueMeAppButton.hidden = false;
@@ -87,21 +98,23 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             self.matherobicLabel.alpha = 1.0
         }else if(row == 2){
             self.hideButtonsShowText()
-            self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch apps for vehicles. I am beyond excited for the opportunity to impact the lives of a plethora of drivers."
+            self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch Apps for vehicles. I am beyond excited for the opportunity to impact the lives of a plethora of drivers."
         }else if(row == 3){
             self.hideButtonsShowText()
-            self.myTextView.text = "I have developed various Pebble SmartWatch Applications for the Pebble SmartWatch that have thousands of users each. One example is Where Am I?, which serves the purpose to user coordinates, and an approximate address with the flick of the wrist."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is Where Am I? With a flick of the wrist the app provides the user with approximate street address."
         }else if(row == 4){
             self.hideButtonsShowText()
-            self.myTextView.text = "I maintain a YouTube channel in which I make tutorials for users to learn Apple WatchKit development and am proud that this channel has over 25,000 views and a few hundred subscribers. A friend of mine started watching my videos and is now working on his own Watch app. It feels incredible to know that I have inspired someone to innovate."
-        }else if(row == 5){
+            self.myTextView.text = "I have a YouTube channel for tutorials on Apple WatchKit development. The channel has a several hundred subscribers, and over 25,000 views."
+        }else if(row == 6){
             self.hideButtonsShowText()
-            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that take car data such as speed, send it to the cloud, analyzes it, and provides haptic feedback in the vehicle such as steering wheel vibration."
+            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is by participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that take car data such as speed, send it to the cloud, analyzes it, and provides haptic feedback in the vehicle such as steering wheel vibration."
         }
 
     }
     func hideButtonsShowText(){
         //self.myTextView.enabled = false;
+        self.watchKitLabTestView.alpha = 0.0
+        self.watckKitLabImage.alpha = 0.0
         self.rescueMeLabel.alpha = 0.0
         self.matherobicLabel.alpha = 0.0
         self.rescueMeAppButton.enabled = false;

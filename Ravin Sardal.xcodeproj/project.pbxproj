@@ -36,6 +36,7 @@
 		127FEF011AE4A0C400D03FEF /* logoWWDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 127FEF001AE4A0C400D03FEF /* logoWWDC.png */; };
 		128241AE1AEB6E8D0044787D /* profilePic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD48F1AEA017800012C10 /* profilePic3.png */; };
 		128241AF1AEB6E8D0044787D /* profilePic3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD48F1AEA017800012C10 /* profilePic3.png */; };
+		1297B98C1AED58DC0088BF7A /* watchKitLab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1297B98B1AED58DC0088BF7A /* watchKitLab.jpg */; };
 		129FB9661AEA21A5007456DA /* white_icons in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9651AEA21A5007456DA /* white_icons */; };
 		129FB9761AEA21C7007456DA /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9711AEA21C7007456DA /* email.png */; };
 		129FB9771AEA21C7007456DA /* facebookWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9721AEA21C7007456DA /* facebookWhite.png */; };
@@ -148,6 +149,7 @@
 		1265E22E1AE848F800D1D40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1265E2301AE848F800D1D40C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		127FEF001AE4A0C400D03FEF /* logoWWDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWWDC.png; sourceTree = "<group>"; };
+		1297B98B1AED58DC0088BF7A /* watchKitLab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watchKitLab.jpg; sourceTree = "<group>"; };
 		129FB9651AEA21A5007456DA /* white_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = white_icons; sourceTree = "<group>"; };
 		129FB9711AEA21C7007456DA /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = white_icons/email.png; sourceTree = "<group>"; };
 		129FB9721AEA21C7007456DA /* facebookWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookWhite.png; path = white_icons/facebookWhite.png; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				121DC01E1AE452F3009668CE /* AboutMeViewContoller.swift */,
 				121DC0201AE45307009668CE /* AccomplishmentsViewContoller.swift */,
 				12D39A7C1AE2C03D000622A2 /* ProfileViewController.swift */,
+				1297B98B1AED58DC0088BF7A /* watchKitLab.jpg */,
 				12FA2A8B1AEC62DE00A1305C /* iphone3gs.jpeg */,
 				12FA2A8C1AEC62DE00A1305C /* lightHero.png */,
 				12FA2A8D1AEC62DE00A1305C /* logo.png */,
@@ -519,6 +522,7 @@
 				12FA2A911AEC62DE00A1305C /* iphone3gs.jpeg in Resources */,
 				12FA2A801AEC193900A1305C /* backArrow.png in Resources */,
 				12FA2A921AEC62DE00A1305C /* lightHero.png in Resources */,
+				1297B98C1AED58DC0088BF7A /* watchKitLab.jpg in Resources */,
 				12AF09B31AE617D50054A50E /* backing5.jpg in Resources */,
 				12FA2A931AEC62DE00A1305C /* logo.png in Resources */,
 				55C9A5A41AEC93610037EE54 /* icon80.png in Resources */,

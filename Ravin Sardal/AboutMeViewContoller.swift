@@ -21,7 +21,7 @@ class AboutMeViewContoller: UIViewController {
     
     @IBOutlet var myDescriptionTextView: UITextView!
     @IBOutlet var myNameLabel: UILabel!
-    let myNameArray = Array("Hello, my name is Ravin!")
+    let myNameArray = Array("Hello, my name is Ravin")
     var myCounter = 0
     var timer:NSTimer?
     
