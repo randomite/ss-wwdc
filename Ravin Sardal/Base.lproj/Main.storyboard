@@ -597,7 +597,7 @@
                                         <rect key="frame" x="166" y="688" width="201" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">In 2014 I decided to create an iPhone App called Matherobic, which helps students learn Calculus. It consisted of a quiz, important formulas and concepts. The content of the app was loaded from server side, so the quiz could be updated easily. Over 200 users.</string>
+                                        <string key="text">In 2014 I decided to create an iPhone App called Matherobic, which helps students learn Calculus. It consisted of a quiz, important formulas and concepts. The content of the app was loaded from server side, so the quiz could be updated easily. It has over 200 users.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -625,7 +625,7 @@
                                         <rect key="frame" x="12" y="896" width="179" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Shortly thereafter, I decided to create my next iOS App called Rescue Me. This app was created to help women feel safe in potentially dangerous situations by automatically sending a text message to 5 emergency contacts in a distress situation. Over 1000 users.</string>
+                                        <string key="text">Shortly thereafter, I decided to create my next iOS App called Rescue Me. This app was created to help women feel safe in potentially dangerous situations by automatically sending a text message to 5 emergency contacts in a distress situation. It has over 1000 users.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -835,7 +835,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kRt-R8-fzX"/>
+        <segue reference="9f7-DO-64L"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.11687379022453707" green="0.55449726039575309" blue="0.67428188131313127" alpha="1" colorSpace="calibratedRGB"/>
 </document>

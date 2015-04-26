@@ -91,7 +91,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //fbla
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "Last year in Homestead Highschool, I was part of the Future Business Leaders of America club. I chose to take part in technology-related competitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
+            self.myTextView.text = "In Homestead Highschool, I was part of the Future Business Leaders of America club. I chose to take part in technology-related competitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
         }else if(row == 2){
             //apple apps
             self.openYoutubeChannelButton.alpha = 0.0
@@ -108,12 +108,12 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //internship
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch Apps for vehicles. I am beyond excited for the opportunity to impact the lives of a plethora of drivers."
+            self.myTextView.text = "This summer I will intern at Ford Motor Company in the iOS Development division and will be working on Apple Watch Apps for vehicles. I am beyond excited for the opportunity to impact the lives of a many drivers."
         }else if(row == 3){
             //pebble apps
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is \"Where Am I?\" With a flick of the wrist, the app provides the user with an approximate street address."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the watch that have thousands of users each. One of my most popular apps is \"Where Am I?\" With a flick of the wrist, the app provides the user with an approximate street address."
         }else if(row == 1){
             //Apple Watckit tutorials
             self.hideButtonsShowText()
@@ -123,7 +123,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //hackathons
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is by participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that takes car data such as speed, fuel consumption etc. send it to the cloud, analyze, and provide haptic feedback in the vehicle such as steering wheel vibration."
+            self.myTextView.text = "Coding is my passion. One way I like to indulge in this hobby is by participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that takes car data such as speed, fuel consumption, etc., and sends it to the cloud, to analyze and provide haptic feedback in the vehicle such as steering wheel vibration."
         }
 
     }
