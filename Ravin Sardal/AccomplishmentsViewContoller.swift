@@ -91,7 +91,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //fbla
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "In Homestead Highschool, I was part of the Future Business Leaders of America club. I chose to take part in technology-related competitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
+            self.myTextView.text = "At Homestead Highschool, I was part of the Future Business Leaders of America club. I chose to take part in technology-related competitions. Last summer I placed First in California State for Database Design and Applications and went on to represent my school in Nationals."
         }else if(row == 2){
             //apple apps
             self.openYoutubeChannelButton.alpha = 0.0
@@ -113,7 +113,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //pebble apps
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the watch that have thousands of users each. One of my most popular apps is \"Where Am I?\" With a flick of the wrist, the app provides the user with an approximate street address."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Apps that have garndered thousands of users each. One of my most popular apps is \"Where Am I?\" With a flick of the wrist, the app provides the user with an approximate street address."
         }else if(row == 1){
             //Apple Watckit tutorials
             self.hideButtonsShowText()
