@@ -62,6 +62,7 @@
 		12FA2A941AEC62DE00A1305C /* mbp13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A8E1AEC62DE00A1305C /* mbp13.jpg */; };
 		12FA2A951AEC62DE00A1305C /* watchkit.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A8F1AEC62DE00A1305C /* watchkit.png */; };
 		12FA2A961AEC62DE00A1305C /* YouTubeSquareLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FA2A901AEC62DE00A1305C /* YouTubeSquareLogo.png */; };
+		12FA2AF61AEC8A5C00A1305C /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA2AF51AEC8A5C00A1305C /* UIDevice.swift */; };
 		55BF20EC1AE5EB2700401A6A /* ggbridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */; };
 		55BF20EE1AE5EB3200401A6A /* coding888.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20ED1AE5EB3200401A6A /* coding888.jpg */; };
 		55BF20F01AE5EB3C00401A6A /* treehacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BF20EF1AE5EB3C00401A6A /* treehacks.png */; };
@@ -160,6 +161,7 @@
 		12FA2A8E1AEC62DE00A1305C /* mbp13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mbp13.jpg; sourceTree = "<group>"; };
 		12FA2A8F1AEC62DE00A1305C /* watchkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watchkit.png; sourceTree = "<group>"; };
 		12FA2A901AEC62DE00A1305C /* YouTubeSquareLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouTubeSquareLogo.png; sourceTree = "<group>"; };
+		12FA2AF51AEC8A5C00A1305C /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		55BF20EB1AE5EB2700401A6A /* ggbridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ggbridge.jpg; sourceTree = "<group>"; };
 		55BF20ED1AE5EB3200401A6A /* coding888.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coding888.jpg; sourceTree = "<group>"; };
 		55BF20EF1AE5EB3C00401A6A /* treehacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehacks.png; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			children = (
 				1228FF2B1ADF902800463FF4 /* AppDelegate.swift */,
 				1228FF2D1ADF902800463FF4 /* ViewController.swift */,
+				12FA2AF51AEC8A5C00A1305C /* UIDevice.swift */,
 				1228FF2F1ADF902800463FF4 /* Main.storyboard */,
 				1234C5691AE493D5006D2898 /* ConferenceViewController.swift */,
 				12A735CE1AE4C4F400BF0AE6 /* InterestsViewController.swift */,
@@ -540,6 +543,7 @@
 				1228FF2C1ADF902800463FF4 /* AppDelegate.swift in Sources */,
 				121DC0211AE45307009668CE /* AccomplishmentsViewContoller.swift in Sources */,
 				121DC01F1AE452F3009668CE /* AboutMeViewContoller.swift in Sources */,
+				12FA2AF61AEC8A5C00A1305C /* UIDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
