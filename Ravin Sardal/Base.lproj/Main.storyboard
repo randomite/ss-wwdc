@@ -196,7 +196,7 @@
         <!--Title-->
         <scene sceneID="fXT-YJ-mNQ">
             <objects>
-                <viewController id="dks-Hw-yyB" customClass="ProfileViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="partialCurl" id="dks-Hw-yyB" customClass="ProfileViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYX-ks-zud">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,7 +312,7 @@
         <!--Accomplishments View Contoller-->
         <scene sceneID="n8w-PA-r0R">
             <objects>
-                <viewController id="Rly-F2-oZO" customClass="AccomplishmentsViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="Rly-F2-oZO" customClass="AccomplishmentsViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D1p-Ib-wJ6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,7 +405,7 @@
         <!--About Me View Contoller-->
         <scene sceneID="dzO-bD-KJf">
             <objects>
-                <viewController id="fnA-Ym-XLH" customClass="AboutMeViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="fnA-Ym-XLH" customClass="AboutMeViewContoller" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAS-bg-j4l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -521,7 +521,7 @@
         <!--Conference View Controller-->
         <scene sceneID="nqJ-zL-rdY">
             <objects>
-                <viewController id="Gw7-hd-CyY" customClass="ConferenceViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="Gw7-hd-CyY" customClass="ConferenceViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PvN-Yg-JQg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -682,7 +682,7 @@
         <!--Interests View Controller-->
         <scene sceneID="AIm-9B-TXt">
             <objects>
-                <viewController id="6k8-ep-TDI" customClass="InterestsViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="6k8-ep-TDI" customClass="InterestsViewController" customModule="Ravin_Sardal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="03l-Ne-2x2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
