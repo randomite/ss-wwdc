@@ -49,7 +49,7 @@ class InterestsViewController: UIViewController {
                 },completion:{finished in
                     if(finished){
                         UIView.animateWithDuration(0.75 , animations: {
-                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, \"Software is eating the world.\" Not only is Software Engineering my major, it is first and foremost my passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousands of users."
+                            self.vcTextView.text = " As famous Silicon Valley Venture Capitalist Marc Andreesen says, \"Software is eating the world.\" Not only is Software Engineering my major, it is my first and foremost passion. My interests in the software realm include server side development, web applications, mobile applications, wearables, and the internet of things. For my Resuce Me app, I employed full-stack development by creating an iOS app, a Pebble Watch app, website with backend web services, and database management. I have also developed 7 Pebble Watch apps that have thousands of users."
                             self.vcTextView.alpha = 1.0;
                             self.titleLabel.text = "Software"
                             self.titleLabel.alpha = 1.0
@@ -83,7 +83,7 @@ class InterestsViewController: UIViewController {
                 },completion:{ finished in
                     if(finished){
                         UIView.animateWithDuration(0.75, animations: {
-                            self.vcTextView.text = "Business and Technology are two critical components in forming a technology venture, something that I someday wish to do. In order to launch a successful company, I must first learn how business work. One way I like to do this is by monitoring stocks, especially Apple's. In order to build my business knowledge I understand it is important to learn from the experience others, something I did in high school in the Future Business Leaders of America club. I enjoyed listening to speakers and attending state and national level conferences."
+                            self.vcTextView.text = "Business and Technology are two critical components in forming a technology venture, something that I someday wish to do. In order to launch a successful company, I must first learn how businesses work. One way I like to do this is by monitoring stocks, especially Apple's. In order to build my business knowledge I understand it is important to learn from the experience others, something I did in high school in the Future Business Leaders of America club. I enjoyed listening to speakers and attending state and national level conferences."
                             self.vcTextView.alpha = 1.0;
                             self.titleLabel.text = "Business"
                             self.titleLabel.alpha = 1.0

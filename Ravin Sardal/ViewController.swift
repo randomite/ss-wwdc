@@ -56,7 +56,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("view did load")
         UIApplication.sharedApplication().statusBarHidden = false
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         self.wwdcLogo.alpha = 0.0
@@ -323,18 +322,18 @@ class ViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { action in
                 switch action.style{
                 case .Default:
-                    println("default")
+                    println("")
                     
                 case .Cancel:
-                    println("cancel")
+                    println("")
                     
                 case .Destructive:
-                    println("destructive")
+                    println("")
                 }
             }))
             self.presentViewController(alert, animated: true, completion: nil)
         }else if(modelNameString == "iPhone 6"){
-            println("iPhone 6 detected")
+            //println("iPhone 6 detected")
         }
         
         UIView.animateWithDuration(0.25, animations: {
