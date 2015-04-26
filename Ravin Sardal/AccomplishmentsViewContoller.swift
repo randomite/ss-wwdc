@@ -113,7 +113,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //pebble apps
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is Where Am I? With a flick of the wrist the app provides the user with approximate street address."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is \"Where Am I?\" With a flick of the wrist the app provides the user with an approximate street address."
         }else if(row == 1){
             //Apple Watckit tutorials
             self.hideButtonsShowText()
