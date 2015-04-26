@@ -23,7 +23,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
         super.viewDidLoad()
         UIApplication.sharedApplication().statusBarHidden = true
         // Do any additional setup after loading the view, typically from a nib.
-        arr = ["FBLA", "Apple Apps", "Summer Internship", "PebbleApps","Apple WatchKit Tutorials", "Hackathons"]
+        arr = ["FBLA", "Apple Apps", "Summer Internship", "Pebble Apps","Apple WatchKit Tutorials", "Hackathons"]
         
         self.myTextView.text = "While attending Homestead High School, I participated in technology competitions with the Future Business Leaders of America club. I placed first in the Database Design and Applications event at the California state competition and went on to the National competition."
         self.hideButtonsShowText()
