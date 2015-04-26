@@ -113,7 +113,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //pebble apps
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is \"Where Am I?\" With a flick of the wrist the app provides the user with an approximate street address."
+            self.myTextView.text = "I have developed various Pebble SmartWatch Apps for the Pebble SmartWatch that have thousands of users each. One of my popular apps is \"Where Am I?\" With a flick of the wrist, the app provides the user with an approximate street address."
         }else if(row == 1){
             //Apple Watckit tutorials
             self.hideButtonsShowText()
@@ -123,7 +123,7 @@ class AccomplishmentsViewContoller: UIViewController,UIPickerViewDelegate,UIPick
             //hackathons
             self.hideButtonsShowText()
             self.openYoutubeChannelButton.alpha = 0.0
-            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is by participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that take car data such as speed, send it to the cloud, analyzes it, and provides haptic feedback in the vehicle such as steering wheel vibration."
+            self.myTextView.text = "Coding is my passion. One way I like to indulge in this obsession is by participating in hackathons. I have won at many hackathons such as CalHacks. At CalHacks I created an application that takes car data such as speed, fuel consumption etc. send it to the cloud, analyze, and provide haptic feedback in the vehicle such as steering wheel vibration."
         }
 
     }
